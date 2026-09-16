@@ -35,21 +35,41 @@ public class PlayerMove : MonoBehaviour
     // 플레이어 키보드 입력 예약을 받는다. 
     private void UserKeyInput()
     {
+        // 방금 누른 키 저장하는 변수
+        Vector3 inputDirection = Vector3.zero;
+        
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            _nextDirection = Vector3.up;
+            inputDirection = Vector3.up;
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            _nextDirection = Vector3.down;
+            inputDirection = Vector3.down;
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            _nextDirection = Vector3.left;
+            inputDirection = Vector3.left;
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            _nextDirection = Vector3.right;
+            inputDirection = Vector3.right;
+        }
+        
+        if (inputDirection == Vector3.zero) return;
+
+        // 누른 방향이 현재 방향과 정반대일 때
+        if (IsOpposite(inputDirection, _currentDirection))
+        {
+            // 타일 중앙까지 안 가고, 바로 유턴
+            _currentDirection = inputDirection;
+            _nextDirection = inputDirection;
+            
+            _targetPosition = _targetPosition + _currentDirection;
+        }
+        else
+        {
+            // 다음 목표 지점 예약
+            _nextDirection = inputDirection;
         }
     }
     
@@ -84,5 +104,10 @@ public class PlayerMove : MonoBehaviour
         
         // 그 블록이 막혀있나?
         return _tilemap.HasTile(nextMapBlock);
+    }
+
+    private bool IsOpposite(Vector3 onedirection, Vector3 otherdirection)
+    {
+        return (onedirection + otherdirection) == Vector3.zero;
     }
 }
