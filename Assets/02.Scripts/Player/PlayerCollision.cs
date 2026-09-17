@@ -24,6 +24,18 @@ public class PlayerCollision : MonoBehaviour
             {
                 _animator.SetTrigger("Die");
             }
+            
+            // 부딪힌 상대가 '적(Enemy)'일 때만 적도 함께 터뜨리기
+            if (collision.CompareTag("Enemy"))
+            {
+                Animator enemyAnimator = collision.GetComponent<Animator>();
+                if (enemyAnimator != null)
+                {
+                    enemyAnimator.SetTrigger("Die");
+                }
+                Destroy(collision.gameObject, 0.5f);
+            }
+            
             GameManager.Instance.GameOver();
         }
         // 깃발 태그를 가진 오브젝트를 만나면 점수 올라감.

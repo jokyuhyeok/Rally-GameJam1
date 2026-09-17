@@ -11661,6 +11661,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &516557424 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4681458615383583835, guid: 5ae8d24e159b3854280233954178f537, type: 3}
+  m_PrefabInstance: {fileID: 1298259421931366966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &516557431
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516557424}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ee16982e0c62fd4b8380ffaa567b732, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -13488,7 +13515,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4681458615383583835, guid: 5ae8d24e159b3854280233954178f537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 516557431}
   m_SourcePrefab: {fileID: 100100000, guid: 5ae8d24e159b3854280233954178f537, type: 3}
 --- !u!1001 &1676318708699154715
 PrefabInstance:

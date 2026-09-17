@@ -65,6 +65,7 @@ public class EnemyNavigator : MonoBehaviour
             {
                 // 두뇌에게 다음 목적지를 물어보고, 길을 찾는다!
                 _currentDirection = DecideNextDirection();
+                RotateEnemy(_currentDirection);
             }
 
             _targetPosition = transform.position + (_currentDirection * _gridSize);
@@ -157,5 +158,15 @@ public class EnemyNavigator : MonoBehaviour
         _stunTimer = stunTime;
 
         Debug.Log("나 기절!");
+    }
+    
+    // 적 회전 전용 함수
+    private void RotateEnemy(Vector3 dir)
+    {
+        if (dir == Vector3.zero) return;
+
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        // 스프라이트가 위(UP)를 보고 있다면 -90도 보정
+        transform.rotation = Quaternion.Euler(0, 0, angle - 90f);
     }
 }
