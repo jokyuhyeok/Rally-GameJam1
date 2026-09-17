@@ -39,7 +39,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -74,7 +74,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -118,7 +118,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 0
         y: 854
         width: 169
         height: 170
@@ -140,7 +140,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 216
+        x: 171
         y: 854
         width: 169
         height: 170
@@ -152,7 +152,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 502c3029923da9b4bb40e8c546608f77
+      spriteID: 0b04ae102710b104e9d98681c5ee3d5b
       internalID: -1386371789
       vertices: []
       indices: 
@@ -162,7 +162,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 439
+        x: 342
         y: 854
         width: 169
         height: 170
@@ -174,7 +174,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c79b7b5888ce232419eb996476e0cf68
+      spriteID: 167b75e99cc611247b01769341da48f0
       internalID: -925523770
       vertices: []
       indices: 
@@ -196,7 +196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59b074b8d95b32c429868b1fc7eb4fa5
+      spriteID: a43640d46114dc34a90e97e2eeb88b08
       internalID: -444016054
       vertices: []
       indices: 
@@ -218,7 +218,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e45e60c750ebc194c938e8e78006a9c7
+      spriteID: c4844e6b7eaad814b80a6745dbabc643
       internalID: 109855815
       vertices: []
       indices: 
@@ -240,7 +240,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a8fe81e3c0771c418723248c7b1fe8f
+      spriteID: 2e675e173f362f149af13dcc93f47b28
       internalID: 17119791
       vertices: []
       indices: 
@@ -250,8 +250,8 @@ TextureImporter:
       name: RacingGame_SpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 15
-        y: 682
+        x: 0
+        y: 684
         width: 169
         height: 170
       alignment: 9
@@ -262,7 +262,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 900165f23b574544da180637035347a8
+      spriteID: 6c047a2aacbae704994798ab0617d7f3
       internalID: -124808585
       vertices: []
       indices: 
@@ -272,7 +272,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 211
+        x: 171
         y: 684
         width: 169
         height: 170
@@ -284,7 +284,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e611f6a517590884d90ac2d6eb17a73a
+      spriteID: 60022f004fb67be47a1cedebc1dca438
       internalID: 200655056
       vertices: []
       indices: 
@@ -294,19 +294,19 @@ TextureImporter:
       name: RacingGame_SpriteSheet_8
       rect:
         serializedVersion: 2
-        x: 841
-        y: 675
+        x: 342
+        y: 684
         width: 169
-        height: 176
+        height: 170
       alignment: 9
       pivot: {x: 1, y: 1}
-      border: {x: 0, y: 17, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc9b4c4fbcce4cf47a780ffe73907975
+      spriteID: d4a06949ae9e0e7478311b35996333ed
       internalID: -1695983116
       vertices: []
       indices: 
@@ -316,7 +316,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_9
       rect:
         serializedVersion: 2
-        x: 429
+        x: 513
         y: 684
         width: 169
         height: 170
@@ -328,7 +328,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3fc07c9d608ccd47a24a9ef78c42edc
+      spriteID: 71f2f04f4caa84c43a6bb0daca8f0898
       internalID: -1746633693
       vertices: []
       indices: 
@@ -338,29 +338,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_10
       rect:
         serializedVersion: 2
-        x: 635
-        y: 682
-        width: 169
-        height: 170
-      alignment: 9
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2402fc381be1ac247b82ac19ec4d219f
-      internalID: 1954790966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RacingGame_SpriteSheet_11
-      rect:
-        serializedVersion: 2
-        x: 846
+        x: 684
         y: 684
         width: 169
         height: 170
@@ -372,7 +350,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b069518c6a36ff4284b7b39df6cb856
+      spriteID: b1c8e307787d6764f9e0b5d1e6139586
+      internalID: 1954790966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 684
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30b90a23d8195343a403138ff0fcaae
       internalID: 1087961060
       vertices: []
       indices: 
@@ -382,7 +382,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_12
       rect:
         serializedVersion: 2
-        x: 20
+        x: 0
         y: 514
         width: 169
         height: 170
@@ -394,7 +394,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cc289c352c7147478384e66c578e2ac
+      spriteID: 21a611f528fe3b84595945c8f7fe596c
       internalID: 586004308
       vertices: []
       indices: 
@@ -404,8 +404,8 @@ TextureImporter:
       name: RacingGame_SpriteSheet_13
       rect:
         serializedVersion: 2
-        x: 211
-        y: 510
+        x: 171
+        y: 514
         width: 169
         height: 170
       alignment: 9
@@ -416,7 +416,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3369d5bdce653c4b8ed9a7c4fb17349
+      spriteID: 539a61f302181b54e948b28e71aff58f
       internalID: -1502680707
       vertices: []
       indices: 
@@ -426,8 +426,8 @@ TextureImporter:
       name: RacingGame_SpriteSheet_14
       rect:
         serializedVersion: 2
-        x: 424
-        y: 512
+        x: 342
+        y: 514
         width: 169
         height: 170
       alignment: 9
@@ -438,7 +438,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 585b9e862d22a8b4a9c21e22a69a6733
+      spriteID: f9c1e42b340ff33428f99312413472ce
       internalID: 575254627
       vertices: []
       indices: 
@@ -448,8 +448,8 @@ TextureImporter:
       name: RacingGame_SpriteSheet_15
       rect:
         serializedVersion: 2
-        x: 630
-        y: 512
+        x: 513
+        y: 514
         width: 169
         height: 170
       alignment: 9
@@ -460,7 +460,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f27f8243b50b45945b48e357578fe6c0
+      spriteID: d422853bbde5370408c37736f3493638
       internalID: -1727432708
       vertices: []
       indices: 
@@ -482,7 +482,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ce07636ccb03f840804f91d87361bc2
+      spriteID: 68afa05cd25a1cd4aaa16a87f7f43bfa
       internalID: 1020897024
       vertices: []
       indices: 
@@ -492,8 +492,8 @@ TextureImporter:
       name: RacingGame_SpriteSheet_17
       rect:
         serializedVersion: 2
-        x: 842
-        y: 512
+        x: 855
+        y: 514
         width: 169
         height: 170
       alignment: 9
@@ -504,7 +504,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d23c6564b6952404caf5a987271d30ae
+      spriteID: 4c7a6c26291852549a27bb3bc3179744
       internalID: -2074235156
       vertices: []
       indices: 
@@ -514,8 +514,8 @@ TextureImporter:
       name: RacingGame_SpriteSheet_18
       rect:
         serializedVersion: 2
-        x: 11
-        y: 346
+        x: 0
+        y: 344
         width: 169
         height: 170
       alignment: 9
@@ -526,7 +526,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f62a18c55f121594fa93638cf6d70c05
+      spriteID: 10a0d9be2adf4b0438a827592746b951
       internalID: 909573970
       vertices: []
       indices: 
@@ -536,7 +536,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_19
       rect:
         serializedVersion: 2
-        x: 211
+        x: 171
         y: 344
         width: 169
         height: 170
@@ -548,7 +548,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d49cf55af61d7c745a65d6646eadf33c
+      spriteID: 7cd58ecba4092ab41a7ea30993e05c83
       internalID: -361182583
       vertices: []
       indices: 
@@ -558,29 +558,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_20
       rect:
         serializedVersion: 2
-        x: 382
-        y: 337
-        width: 169
-        height: 170
-      alignment: 9
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56be4d1376e74c24f9837b90ea06b893
-      internalID: -2075546509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RacingGame_SpriteSheet_21
-      rect:
-        serializedVersion: 2
-        x: 531
+        x: 342
         y: 344
         width: 169
         height: 170
@@ -592,7 +570,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8edc4d08eb4cab745bcc2b859cbf1bc4
+      spriteID: 2da6d65b23599f04d849632555516541
+      internalID: -2075546509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 344
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5a43361c7d3444e8c56f026fc19030
       internalID: 1100155270
       vertices: []
       indices: 
@@ -614,7 +614,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8192224d2b1fc5741a469995651280a7
+      spriteID: 4cd3ef1182d32774987feb076a4389dc
       internalID: -647960431
       vertices: []
       indices: 
@@ -636,7 +636,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 294eccdc4bc993145aa1f2250f1f344a
+      spriteID: 6914054972941774eb74b0135cd7d6e9
       internalID: -1632046601
       vertices: []
       indices: 
@@ -646,7 +646,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_24
       rect:
         serializedVersion: 2
-        x: 13
+        x: 0
         y: 174
         width: 169
         height: 170
@@ -658,7 +658,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b84afe843e8e4b41bc0d84e5372d166
+      spriteID: d618c76032ef8aa4aad41f1b841ef323
       internalID: -2055555455
       vertices: []
       indices: 
@@ -668,29 +668,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_25
       rect:
         serializedVersion: 2
-        x: 217
-        y: 172
-        width: 169
-        height: 170
-      alignment: 9
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e28cacd2b2dbbfa4db2a1dd1b6b9af59
-      internalID: 88001407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RacingGame_SpriteSheet_26
-      rect:
-        serializedVersion: 2
-        x: 377
+        x: 171
         y: 174
         width: 169
         height: 170
@@ -702,18 +680,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6823c485cc7fc9549a2df69b40bc98ef
-      internalID: -261099629
+      spriteID: 1a5688be5860cf34caa528bc228db2cc
+      internalID: 88001407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RacingGame_SpriteSheet_27
+      name: RacingGame_SpriteSheet_26
       rect:
         serializedVersion: 2
-        x: 537
-        y: 176
+        x: 342
+        y: 174
         width: 169
         height: 170
       alignment: 9
@@ -724,7 +702,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7362c87892e20de43b93b59de85e0837
+      spriteID: 837e40971666bdd4ebe7a87e7bf2405d
+      internalID: -261099629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 174
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a8fbbac88e3844bb802e497be48b8d
       internalID: 1052791739
       vertices: []
       indices: 
@@ -746,7 +746,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6e4a9879cc322544861e5f2fd2324a4
+      spriteID: fa633fabf2cd1e84fa5c0ebc4b1fccf4
       internalID: 894321904
       vertices: []
       indices: 
@@ -768,7 +768,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a8d7d7e536ae0f488229d315bafeece
+      spriteID: 9a45f780841b3344e978a5d37fa1b47a
       internalID: -1733937219
       vertices: []
       indices: 
@@ -790,7 +790,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d5907f154cf53c4aad9ba3606c3d68d
+      spriteID: 0d36009d87b7257469077702615d0f64
       internalID: 1794669002
       vertices: []
       indices: 
@@ -812,7 +812,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df3355a35ef4abe45bbbdb1cc4d72817
+      spriteID: 3f1e559525765fa44a81656ba5cf71b7
       internalID: -375538391
       vertices: []
       indices: 
@@ -834,7 +834,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199519b26ba21914585627e4b1604229
+      spriteID: 46477a54b936fff49aeaf733ce9a3837
       internalID: 33786745
       vertices: []
       indices: 
@@ -844,7 +844,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_33
       rect:
         serializedVersion: 2
-        x: 524
+        x: 513
         y: 4
         width: 169
         height: 170
@@ -856,7 +856,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5003b934e2f449a4891add0846a4a9d1
+      spriteID: 839624ed4872d884ab7b4314770f076f
       internalID: 758284315
       vertices: []
       indices: 
@@ -866,7 +866,7 @@ TextureImporter:
       name: RacingGame_SpriteSheet_34
       rect:
         serializedVersion: 2
-        x: 699
+        x: 684
         y: 4
         width: 169
         height: 170
@@ -878,7 +878,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc53e109727c1084990bedf8637fada6
+      spriteID: bbc4e6e59dfd815418c75fc0679d7131
       internalID: 892109739
       vertices: []
       indices: 
@@ -900,7 +900,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da3615dacd153a149ac38925d285183b
+      spriteID: c1079c3828f343441beb7a3c396115b4
       internalID: 1553935989
       vertices: []
       indices: 
@@ -920,7 +920,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":169.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":2.0,"y":0.0},"pivot":{"x":1.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":169.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":2.0,"y":0.0},"pivot":{"x":1.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       RacingGame_SpriteSheet_0: 58818487
       RacingGame_SpriteSheet_1: -1386371789

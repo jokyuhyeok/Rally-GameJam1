@@ -73,6 +73,9 @@ public class PlayerMove : MonoBehaviour
             _nextDirection = inputDirection;
 
             _targetPosition = _targetPosition + _currentDirection;
+            
+            // 유턴할 때 즉시 차체 회전 반영
+            RotateCar(_currentDirection);
         }
         else
         {
@@ -101,7 +104,20 @@ public class PlayerMove : MonoBehaviour
             }
 
             _targetPosition = _targetPosition + _currentDirection;
+            
+            // 새로운 타일로 꺾일 때 차체 회전 반영
+            RotateCar(_currentDirection);
         }
+    }
+
+    // 현재 이동 중인 방향 벡터를 받아 Z축 각도를 조절.
+    private void RotateCar(Vector3 dir)
+    {
+        if (dir == Vector3.zero) return;
+
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        // 스프라이트 원본이 '위(UP)'를 보고 있으므로 90도를 뺀다.
+        transform.rotation = Quaternion.Euler(0, 0, angle - 90f);
     }
 
     private bool IsBlocked(Vector3 direction)
