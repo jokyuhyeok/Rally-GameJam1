@@ -1,0 +1,41 @@
+{
+    "asset": "0ea8d411ee5d54b4eab3c3e37cf02f27",
+    "fileName": "01a0b055-b8c8-7573-9afa-61911927e690.png",
+    "prompt": "Edit this pixel art sprite sheet. Keep the PLAYER cars, ENEMY driving cars, EXPLOSION row, and SMOKE row EXACTLY as they are — do not change them. Only make these two corrections, matching the same retro pixel art style, palette, outlines and pixel scale:\n\n1) REPLACE THE ENTIRE FLAGS SECTION. Remove all current flags (the S,S,S,S and the A,B,C flags). In their place, draw THREE flag types, each as a golden-yellow pennant flag on a pole with a lively flapping-in-the-wind animation of 4 frames (the cloth waves/curls differently each frame):\n   - Row of 4 frames: BLANK golden-yellow flag (no letter).\n   - Row of 4 frames: golden-yellow flag with a bold RED capital letter 'S'.\n   - Row of 4 frames: golden-yellow flag with a bold RED capital letter 'L'.\n   Only the letters S and L may appear — NO 'A', NO 'B', NO 'C', and one type must be completely blank.\n\n2) ADD an ENEMY STUNNED STATE: 2 frames placed in the empty space near the enemy cars. Use the EXACT same top-down car silhouette/shape as the red enemy driving car, but recolored: frame 1 is the car fully desaturated to pure bright WHITE, frame 2 is the car in light GREY. This is a color blink effect (white/grey), same pose as driving, NOT rotated, NOT red. Label this area clearly.\n\nEverything else in the sheet stays identical. Transparent-friendly plain background, crisp pixel outlines, uniform grid.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "0ea8d411ee5d54b4eab3c3e37cf02f27",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

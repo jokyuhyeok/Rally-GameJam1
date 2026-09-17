@@ -29,6 +29,12 @@ public class PlayerMove : MonoBehaviour
 
     private void Update()
     {
+        // 게임 오버 상태라면 바로 종료시킴
+        if (GameManager.Instance != null && GameManager.Instance.IsGameOver)
+        {
+            return; 
+        }
+        
         UserKeyInput();
 
         Move();

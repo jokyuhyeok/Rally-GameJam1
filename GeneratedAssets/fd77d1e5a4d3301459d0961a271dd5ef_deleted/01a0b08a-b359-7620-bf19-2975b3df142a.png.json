@@ -1,0 +1,31 @@
+{
+    "asset": "fd77d1e5a4d3301459d0961a271dd5ef",
+    "fileName": "01a0b08a-b359-7620-bf19-2975b3df142a.png",
+    "prompt": "A single 2D pixel art sprite sheet for a classic top-down arcade racing game. Sharp crisp pixel art, hard edges, NO anti-aliasing, limited retro color palette, 16-bit style. TRUE FULLY TRANSPARENT background (alpha = 0) — absolutely NO checkerboard pattern, NO grey squares, NO solid color fill behind sprites. All sprites arranged neatly in an evenly-spaced grid with generous empty transparent margins between every sprite for easy auto-slicing. Each row is one category.\n\nRow 1: Player Car — a blue race car seen from a strict top-down (bird's eye) view, facing UP toward the top of the image. 2 frames (identical car, slight wheel/detail variation).\n\nRow 2 and 3: Player Explosion — a 10 frame animation sequence read left to right, top to bottom. Frame 1: tiny bright initial blast. Frames 2-6: growing into a MASSIVE roaring orange and yellow fireball. Frames 7-10: collapsing into dark smoke and ending as black burnt charred wreckage debris.\n\nRow 4: Enemy Car — a red race car, strict top-down view, facing UP. 2 frames.\n\nRow 5: Enemy Stunned — a white/grey desaturated race car, top-down view, facing UP. 2 blinking frames (one normal brightness, one dimmer/faded).\n\nRow 6: Flag type A — a blank plain yellow racing flag on a pole. 4 frames of a waving/wavy animation.\n\nRow 7: Flag type B — a yellow racing flag with a bold red letter 'S' on it. 4 frames of a waving/wavy animation.\n\nRow 8: Flag type C — a yellow racing flag with a bold red letter 'L' on it. 4 frames of a waving/wavy animation.\n\nRow 9: Smoke Cloud — a 6 frame sequence: frame 1 small grey puff, frames 2-4 growing into a big thick grey cloud, frames 5-6 thinning and fading away.\n\nOnly render these sprites. Do NOT add any labels, titles, captions, numbers, watermarks or extra text anywhere (the only text allowed is the red 'S' and red 'L' on the flags).",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 2048,
+        "height": 2048
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

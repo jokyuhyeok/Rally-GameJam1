@@ -1,0 +1,31 @@
+{
+    "asset": "3a14736e0febedc45a22e7308ce5c5d0",
+    "fileName": "01a0b04c-6514-71ee-9edf-48a978d23442.png",
+    "prompt": "Master 2D pixel art sprite sheet for a retro top-down arcade racing game, classic 8-bit 16-bit arcade aesthetic, clean grid layout on a solid plain background. Crisp pixel art outlines, vibrant retro arcade palette.\n\nCleanly arranged grid containing:\nRow 1: Player Blue Race Car (Top-down view, sleek classic F1/arcade buggy, bright royal blue with yellow/white accents):\n- Driving Up: 4 animation frames (subtle bounce and wheel motion)\n- Driving Down: 4 animation frames\n- Driving Left: 4 animation frames\n- Driving Right: 4 animation frames\n\nRow 2: Player Death/Explosion Animation:\n- 6 sequential explosion frames: initial fireball flash, expanding bright orange/yellow blast with shrapnel, billowy fireball, dense smoke explosion, dissipating dark smoke, fading ashes.\n\nRow 3: Enemy Red Race Car (Top-down view, aggressive retro arcade racer in bright crimson red):\n- Driving Up: 4 animation frames\n- Driving Down: 4 animation frames\n- Driving Left: 4 animation frames\n- Driving Right: 4 animation frames\n- Stunned State: 2 alternating flashing frames (desaturated white/light grey flashing stun effect)\n\nRow 4: Objective Flags (Checkered/pennant flag poles with lively fluttering animations, 4 frames each):\n- Plain Yellow Flag: 4 flapping frames\n- Special 'S' Flag: Yellow flag with a bold red 'S', 4 flapping frames\n- Lucky 'L' Flag: Yellow flag with a bold red 'L', 4 flapping frames\n\nRow 5: Smoke Screen / Stun Gas Cloud:\n- 6 frames animation sequence: tiny puff cloud appearing, rapidly puffing into thick rounded cartoon smoke cloud, billowy turbulent smoke, expanding gas cloud, thinning dissipating mist, dissolving away completely.\n\nStrict retro pixel art style, uniform sprite sizes, neatly spaced grid cells with no overlapping sprites, sharp pixel definition, retro arcade feel.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

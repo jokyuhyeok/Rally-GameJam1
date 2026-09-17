@@ -1,0 +1,41 @@
+{
+    "asset": "8cf45340091fb9f448a3d6a06331eddd",
+    "fileName": "01a0b085-3d24-7ed2-acb3-37fb7755b5c8.png",
+    "prompt": "A clean 2D pixel art sprite sheet for a classic top-down arcade racing game, strictly matching the 8-bit/16-bit pixel art style and color palette of the reference image. Hard sharp pixel edges only, NO anti-aliasing, NO blur.\n\nLAYOUT: Arrange every sprite in a neat, evenly spaced grid with plenty of empty space between each frame so no sprites touch each other. Uniform pixel scale.\n\nBACKGROUND: solid flat plain background behind the sprites (this will be removed later). No text, no captions, no labels, no letters except the flag letters described below.\n\nREQUIRED SPRITES (all STRICTLY TOP-DOWN, viewed from directly above):\n\nRow 1 - PLAYER (Blue Car), facing UP only: 2 frames (slight vibration, wheels moving).\n\nRow 1 - ENEMY (Red Car), facing UP only: 2 frames (slight vibration).\n\nRow 1 - STUNNED ENEMY, same red car silhouette facing UP but fully desaturated: frame 1 pure bright WHITE car, frame 2 light GREY car (2 blinking frames, no red, no rotation).\n\nRow 2 - FLAGS (top-down/side pennant flag on a pole, lively wavy flapping animation, 4 frames each):\n- Blank Yellow Flag: 4 wavy frames\n- Yellow Flag with bold RED letter 'S': 4 wavy frames\n- Yellow Flag with bold RED letter 'L': 4 wavy frames\n\nRow 3 - GAS / SMOKE CLOUD (cream/pale-yellow puffy cartoon smoke, matching reference smoke), 6 frames: small puff -> growing -> medium cloud -> big thick fluffy cloud -> thinning -> fading away.\n\nRow 4 & 5 - MASSIVE EXPLOSION & WRECKAGE, 10 frames sequence:\n1: white ignition blast flash on the blue car with sparks\n2: fire erupting outward\n3: growing red/orange/yellow flames\n4: massive roaring fireball beginning to consume the car\n5: peak enormous fireball completely engulfing the car with debris and sparks shooting out\n6: fireball churning, dense orange-red flames\n7: flames dying into thick dark smoke\n8: smoke thinning revealing black charred chassis\n9: black burnt car wreckage with small smoke wisps\n10: final black burnt car wreckage resting on the ground\n\nCrisp retro arcade pixel art, hard edges, evenly spaced grid.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "7a57bfd7a3241534bbed2a8e8f8200e1",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

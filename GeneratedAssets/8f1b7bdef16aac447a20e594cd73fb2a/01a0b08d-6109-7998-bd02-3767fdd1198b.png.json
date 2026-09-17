@@ -1,0 +1,31 @@
+{
+    "asset": "8f1b7bdef16aac447a20e594cd73fb2a",
+    "fileName": "01a0b08d-6109-7998-bd02-3767fdd1198b.png",
+    "prompt": "A single 2D pixel art sprite sheet for a top-down racing game. Sharp crisp pixel art, hard edges, NO anti-aliasing, retro 16-bit palette. TRUE FULLY TRANSPARENT background (alpha = 0) behind and between every sprite. NO checkerboard painted into the image, NO grey squares, NO solid fill. Sprites laid out in a clean evenly spaced grid with wide transparent gaps between them for auto-slicing.\n\nRender EXACTLY these items grouped into rows, and NOTHING ELSE:\n\nROW 1: two BLUE race cars, strict top-down bird's-eye view, nose pointing UP (2 frames).\nROW 2: player explosion frames 1-5 — tiny white blast growing into a bigger orange fireball.\nROW 3: player explosion frames 6-10 — massive peak orange fireball, then collapsing into dark smoke, ending as a small black charred burnt wreckage.\nROW 4: two RED race cars, strict top-down view, nose pointing UP (2 frames).\nROW 5: two WHITE/GREY desaturated race cars, top-down view, nose UP — blinking (frame 1 bright, frame 2 dim/faded).\nROW 6: a plain BLANK YELLOW flag on a pole, 4 wavy waving frames.\nROW 7: a YELLOW flag with a bold RED letter 'S' on it, 4 wavy waving frames.\nROW 8: a YELLOW flag with a bold RED letter 'L' on it, 4 wavy waving frames.\nROW 9: a grey smoke cloud, 6 frames — small puff, growing to a big thick cloud, then thinning and fading to wisps.\n\nSTRICT RULES — this is critical:\n- Include ALL nine rows. Do not stop early. Rows 5, 6, 7, 8, 9 (stunned cars, all three flags, smoke) MUST be present and clearly drawn.\n- Do NOT add any other objects. FORBIDDEN: no power-ups, no shields, no rockets, no lightning bolts, no traffic cones, no barricades, no oil slicks, no coins, no checkered flags, no speedometer, no HUD, no title screen, no banners.\n- Do NOT write any text, labels, numbers, captions, or watermarks anywhere. The ONLY text allowed in the entire image is the red 'S' on the row 7 flags and the red 'L' on the row 8 flags. No 'GO', no 'LAP', no 'GAME OVER', no '1UP', no title.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 2048,
+        "height": 2048
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

@@ -1,0 +1,965 @@
+fileFormatVersion: 2
+guid: 8f1b7bdef16aac447a20e594cd73fb2a
+labels:
+- UnityAI
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7183060409878441819
+    second: RacingGame_SpriteSheet 1_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 854
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df9b889794d45144b01b55ac9ca8bc9
+      internalID: 58818487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 854
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502c3029923da9b4bb40e8c546608f77
+      internalID: -1386371789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 854
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79b7b5888ce232419eb996476e0cf68
+      internalID: -925523770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 854
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b074b8d95b32c429868b1fc7eb4fa5
+      internalID: -444016054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 854
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e60c750ebc194c938e8e78006a9c7
+      internalID: 109855815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 854
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8fe81e3c0771c418723248c7b1fe8f
+      internalID: 17119791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 682
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900165f23b574544da180637035347a8
+      internalID: -124808585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 684
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e611f6a517590884d90ac2d6eb17a73a
+      internalID: 200655056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 675
+        width: 169
+        height: 176
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 17, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9b4c4fbcce4cf47a780ffe73907975
+      internalID: -1695983116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 684
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fc07c9d608ccd47a24a9ef78c42edc
+      internalID: -1746633693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 682
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2402fc381be1ac247b82ac19ec4d219f
+      internalID: 1954790966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 684
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b069518c6a36ff4284b7b39df6cb856
+      internalID: 1087961060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 514
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc289c352c7147478384e66c578e2ac
+      internalID: 586004308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 510
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3369d5bdce653c4b8ed9a7c4fb17349
+      internalID: -1502680707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 512
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585b9e862d22a8b4a9c21e22a69a6733
+      internalID: 575254627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 512
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27f8243b50b45945b48e357578fe6c0
+      internalID: -1727432708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 514
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce07636ccb03f840804f91d87361bc2
+      internalID: 1020897024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 512
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23c6564b6952404caf5a987271d30ae
+      internalID: -2074235156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 346
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62a18c55f121594fa93638cf6d70c05
+      internalID: 909573970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 344
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49cf55af61d7c745a65d6646eadf33c
+      internalID: -361182583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 337
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56be4d1376e74c24f9837b90ea06b893
+      internalID: -2075546509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 344
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edc4d08eb4cab745bcc2b859cbf1bc4
+      internalID: 1100155270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 344
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8192224d2b1fc5741a469995651280a7
+      internalID: -647960431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 344
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294eccdc4bc993145aa1f2250f1f344a
+      internalID: -1632046601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 174
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b84afe843e8e4b41bc0d84e5372d166
+      internalID: -2055555455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 172
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28cacd2b2dbbfa4db2a1dd1b6b9af59
+      internalID: 88001407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 174
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6823c485cc7fc9549a2df69b40bc98ef
+      internalID: -261099629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 176
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7362c87892e20de43b93b59de85e0837
+      internalID: 1052791739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 174
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e4a9879cc322544861e5f2fd2324a4
+      internalID: 894321904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 174
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8d7d7e536ae0f488229d315bafeece
+      internalID: -1733937219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5907f154cf53c4aad9ba3606c3d68d
+      internalID: 1794669002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 4
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3355a35ef4abe45bbbdb1cc4d72817
+      internalID: -375538391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 4
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199519b26ba21914585627e4b1604229
+      internalID: 33786745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 4
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5003b934e2f449a4891add0846a4a9d1
+      internalID: 758284315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 4
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc53e109727c1084990bedf8637fada6
+      internalID: 892109739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RacingGame_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 4
+        width: 169
+        height: 170
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3615dacd153a149ac38925d285183b
+      internalID: 1553935989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":169.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":2.0,"y":0.0},"pivot":{"x":1.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      RacingGame_SpriteSheet_0: 58818487
+      RacingGame_SpriteSheet_1: -1386371789
+      RacingGame_SpriteSheet_10: 1954790966
+      RacingGame_SpriteSheet_11: 1087961060
+      RacingGame_SpriteSheet_12: 586004308
+      RacingGame_SpriteSheet_13: -1502680707
+      RacingGame_SpriteSheet_14: 575254627
+      RacingGame_SpriteSheet_15: -1727432708
+      RacingGame_SpriteSheet_16: 1020897024
+      RacingGame_SpriteSheet_17: -2074235156
+      RacingGame_SpriteSheet_18: 909573970
+      RacingGame_SpriteSheet_19: -361182583
+      RacingGame_SpriteSheet_2: -925523770
+      RacingGame_SpriteSheet_20: -2075546509
+      RacingGame_SpriteSheet_21: 1100155270
+      RacingGame_SpriteSheet_22: -647960431
+      RacingGame_SpriteSheet_23: -1632046601
+      RacingGame_SpriteSheet_24: -2055555455
+      RacingGame_SpriteSheet_25: 88001407
+      RacingGame_SpriteSheet_26: -261099629
+      RacingGame_SpriteSheet_27: 1052791739
+      RacingGame_SpriteSheet_28: 894321904
+      RacingGame_SpriteSheet_29: -1733937219
+      RacingGame_SpriteSheet_3: -444016054
+      RacingGame_SpriteSheet_30: 1794669002
+      RacingGame_SpriteSheet_31: -375538391
+      RacingGame_SpriteSheet_32: 33786745
+      RacingGame_SpriteSheet_33: 758284315
+      RacingGame_SpriteSheet_34: 892109739
+      RacingGame_SpriteSheet_35: 1553935989
+      RacingGame_SpriteSheet_4: 109855815
+      RacingGame_SpriteSheet_5: 17119791
+      RacingGame_SpriteSheet_6: -124808585
+      RacingGame_SpriteSheet_7: 200655056
+      RacingGame_SpriteSheet_8: -1695983116
+      RacingGame_SpriteSheet_9: -1746633693
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,31 @@
+{
+    "asset": "8f1b7bdef16aac447a20e594cd73fb2a",
+    "fileName": "01a0b08b-f784-7075-84ec-a9d9fa57f221.png",
+    "prompt": "A single 2D pixel art sprite sheet for a classic top-down arcade racing game. Sharp crisp pixel art, hard edges, NO anti-aliasing, limited retro 16-bit color palette. TRUE FULLY TRANSPARENT background (alpha channel = 0) behind and between every sprite — absolutely NO checkerboard texture painted into the image, NO grey squares, NO solid color fill. Sprites arranged in an evenly spaced grid with generous transparent margins between each sprite for easy auto-slicing.\n\nThe sheet MUST contain ALL of the following 9 rows. Do not omit any row. Every row must be filled.\n\nROW 1 (2 sprites): Player Car — a BLUE race car, strict top-down bird's-eye view, nose facing UP. Two nearly identical frames.\n\nROW 2 (5 sprites): Player Explosion frames 1-5 — frame 1 tiny bright white blast, frames 2-5 growing bright orange/yellow fireball getting bigger each frame.\n\nROW 3 (5 sprites): Player Explosion frames 6-10 — frame 6 MASSIVE roaring orange fireball at peak, frames 7-9 collapsing into dark grey smoke, frame 10 small black burnt charred wreckage debris.\n\nROW 4 (2 sprites): Enemy Car — a RED race car, strict top-down view, nose facing UP. Two nearly identical frames.\n\nROW 5 (2 sprites): Enemy Stunned — a WHITE / light GREY desaturated race car, top-down view, nose facing UP. Two blinking frames (frame 1 normal, frame 2 dimmer and faded).\n\nROW 6 (4 sprites): Yellow Flag A — a plain BLANK YELLOW racing flag on a pole, 4 frames of a wavy waving animation (cloth rippling differently in each frame).\n\nROW 7 (4 sprites): Yellow Flag B — a YELLOW racing flag with a bold RED letter 'S' printed on it, 4 frames of a wavy waving animation.\n\nROW 8 (4 sprites): Yellow Flag C — a YELLOW racing flag with a bold RED letter 'L' printed on it, 4 frames of a wavy waving animation.\n\nROW 9 (6 sprites): Smoke Cloud — 6 frame sequence, frame 1 tiny grey puff, frames 2-4 growing into a big thick grey cloud, frames 5-6 thinning and fading away to wisps.\n\nOnly render these sprites. Do NOT add any labels, titles, row numbers, captions, watermarks or extra text (the ONLY text allowed anywhere is the red 'S' on row 7 flags and the red 'L' on row 8 flags).",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 2048,
+        "height": 2048
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

@@ -1,0 +1,3012 @@
+fileFormatVersion: 2
+guid: a531d20c3e6c7f34ba887a9e2017f957
+labels:
+- UnityAI
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4701903169493109822
+    second: RetroRacing_SpriteSheet 1_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 886
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de898acbb441e549a11270bfdc0cbaf
+      internalID: -1386301254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 993
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187668374938e334481aeec592b2c04a
+      internalID: 1112616036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 993
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db8dd9c6d6b7d242b259e0d73b3b8b2
+      internalID: -975286621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 993
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e78991fd9e906468c6bad0182a492e
+      internalID: 1280232787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 992
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76d699ab03c63a4fa2a481835ba4b41
+      internalID: -141121519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 993
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59842134b5349a047af9690ee7af1aaa
+      internalID: 1897841631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 992
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071f595da341a38478ee450a72d927ee
+      internalID: 1103750502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 993
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a908b06c707a645bb1b6c326da40f5
+      internalID: -47178736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 993
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a82139f97446bb429116d75323b7ac1
+      internalID: -1907075136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 993
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67c0d727d2b08e43bdd7291d326003a
+      internalID: -435179685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 992
+        width: 83
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b14b53a59768f640aa5fd46eebd56a6
+      internalID: 1467980042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 993
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691683fdfd3fd3247a90721fa20c3eb8
+      internalID: -216825016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_12
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 993
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af71430709eb05f42b55025560d81567
+      internalID: -1389779858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_13
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 993
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1805604293771184f9069c1a1e1c93f0
+      internalID: -1707388002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_14
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 992
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b07578c59b6d64b9cac15897cfdc90
+      internalID: 1689910062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 993
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebb76654f3a13140ab01bc52d325a67
+      internalID: 703879419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_16
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 992
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675f70506310efa43af2d2bb8e95d50b
+      internalID: 1872183143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_17
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 993
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ea465b6f23eef499af306032419e08
+      internalID: 1189438138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_18
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 993
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca1664d1b4b33c4e8c8b173e368350a
+      internalID: 1918076206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_19
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 993
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff6a4c0f94059c4685e3fe3d204bccf
+      internalID: -1619129170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_20
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 993
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adde30a6521c77244af04c16715e58b6
+      internalID: 1893998516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_21
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 992
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be01f0715a182540a6005274b3f1ad4
+      internalID: 74773639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_22
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 993
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f3644a418027a4bb9e04194e53feef
+      internalID: 438238949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_23
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 993
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19835af2ec8a674686b1dd4deb9e396
+      internalID: 1101560978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_24
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 993
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835432e6d6367a446b7775af448b42eb
+      internalID: -573611617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_25
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 992
+        width: 75
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134284769299f874cae5e47b8a77c035
+      internalID: 1777221344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_26
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 886
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b642cab72ae754d9686ed8ebe17c9e
+      internalID: 1764301818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_27
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 886
+        width: 73
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310b34a248d9e0d429049cf610771dea
+      internalID: 1177494528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 886
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817f5bb242620fc438ab0a4564db57e9
+      internalID: 329381093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_29
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 909
+        width: 110
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f005bfb529b5b384ea989b933c1cc276
+      internalID: 1435704148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_30
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 909
+        width: 110
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10db58b5d1ec57145b79beb43df8d4eb
+      internalID: 994871538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_31
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 909
+        width: 110
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413ff9cb4cbc7a1429f59dae3d6b7ec8
+      internalID: -685093127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_32
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 909
+        width: 110
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfdad5e46b45524dbbd20895e0a33a9
+      internalID: -587787811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_33
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 778
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046f5dbf08590d74f90903302ec2c743
+      internalID: -981524303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_34
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 778
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82be40e508a9ad4c828e374cee458a7
+      internalID: -1726471306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_35
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 778
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bd9c77de71f484ebb6d890429a669b
+      internalID: 235641902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_36
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 778
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871aa059d51d006418c1824ee7120d0a
+      internalID: -1830856962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_37
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 798
+        width: 110
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7041797fa08a7643b0d7be9407a7ca7
+      internalID: 409618797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_38
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 798
+        width: 110
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf659151d5dcea49975507a6426b942
+      internalID: -1906073834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_39
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 799
+        width: 110
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcf439236e0eda4196a27d6200c7283
+      internalID: -1570534100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_40
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 799
+        width: 110
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d377331b5a9cd0945a41f5893f6c2aec
+      internalID: -821256730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_41
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 740
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9353021c72052bc4ab40ea3273f1b238
+      internalID: -911023785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_42
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 740
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c0f2f6461c1304e9c0edc67b941681
+      internalID: 1401597501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_43
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 740
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca9195e0a09b2948bce00498549909e
+      internalID: 1719221832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_44
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 739
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4198c26569424224791da1326f246553
+      internalID: 1027567023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_45
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 740
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97639f27edb32a438025a43aff6d8a2
+      internalID: 1838918977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_46
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 740
+        width: 78
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd070cb621cc84499d60fe8fcc06458
+      internalID: -554793256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 739
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae89da5d14864e4aa1329dd91c7b62c
+      internalID: -110665201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_48
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 740
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5360d6e1576b0dd489d5bc060bfa5066
+      internalID: -2103717812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_49
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 740
+        width: 78
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769ba1e20499f2d418b27de3802c24b2
+      internalID: -1131858514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_50
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 739
+        width: 78
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6059f951e3ecb3940a2533f810be145b
+      internalID: -254364463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_51
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 740
+        width: 78
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc737c95524b82d41b638fe12c46e8d8
+      internalID: -298944139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_52
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 739
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedb68dc0545d924b9f3d19f4acceccf
+      internalID: 1636042037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_53
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 739
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e82303f4cb553841a2ad47293f3a6ec
+      internalID: 806051232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_54
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 635
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f72a148ebd34304fb071e7331a8d4b1
+      internalID: 732587633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_55
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 635
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1613d805a16d2d644888bfb14824387c
+      internalID: -205105465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_56
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 640
+        width: 76
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71f022d33006d34c97769d73b22e9d4
+      internalID: -1740198674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_57
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 634
+        width: 76
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8883f303b0e9f4998a7569a19419e0
+      internalID: 750603124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_58
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 660
+        width: 110
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900b231258d76ea4c8773e4bc8479f02
+      internalID: -700277888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_59
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 660
+        width: 110
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502ac22b4ad1e5c4eab91b31cd6beb8f
+      internalID: -1473840993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_60
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 660
+        width: 110
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98659c375419f84abefa96aa373825f
+      internalID: 1329458380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_61
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 660
+        width: 110
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cefa8781e299c4d8adbdf84deec9db
+      internalID: -829761901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_62
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 527
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaf27071842af240b196dae58a66f66
+      internalID: 1830147408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_63
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 527
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eeb86957c225c4d92d4b373fd83182
+      internalID: -864020227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_64
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 527
+        width: 76
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ae4a6442fc93249b868c3bee2912d7
+      internalID: 793148653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_65
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 527
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b58f66533651d41b529b4ed760283a
+      internalID: -303604206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_66
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 552
+        width: 111
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2037d0433002e2e418c52bc9d27960ef
+      internalID: -1485567399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_67
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 552
+        width: 110
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8111cdc501be84b8a97235c56691ce
+      internalID: -1446716202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_68
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 552
+        width: 111
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796f93d56aa130c45bb24f2e226f9cdd
+      internalID: 2117539918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_69
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 553
+        width: 110
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ec68989297af74fa7bacfcd0742071
+      internalID: -1694217028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_70
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 495
+        width: 78
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7975bec16fee8314b87c527531e06212
+      internalID: -1761527399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_71
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 495
+        width: 105
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6a33b303a85aa449ab8d83d6a9b15e
+      internalID: 1563457012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_72
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 496
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a1cf4999d4b5645bc6f8ad358e437a
+      internalID: 66424372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_73
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 496
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a2ad123b0746c438a30511a345ae43
+      internalID: 1115507185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_74
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 496
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca664efe126a73f49931bf8d5fdad3bf
+      internalID: 1596690581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_75
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 496
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41d968c5aecef3478414d0b24659fa1
+      internalID: 1964828643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_76
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 496
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb72881b3580384dbf5607a5ae64e8a
+      internalID: 1839708686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_77
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 466
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94490e8346c76e40a023240ff717ac5
+      internalID: -1228859310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_78
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 476
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eda753ce8fd77d449c563ca4c0c0434
+      internalID: 467382735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_79
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 476
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b739e97df87e4499708f9ee26a6746
+      internalID: -1582562228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_80
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 466
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de8edc0bf392114292c8e9b16b4b315
+      internalID: 1856732859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_81
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 348
+        width: 151
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30445217e03a29e408415282b523a84b
+      internalID: 736253514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_82
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 348
+        width: 152
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab85f48a58c06e4e8bbad82e4b6e6ed
+      internalID: 813222126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_83
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 358
+        width: 136
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604711f0caeb36948baa336bd20edf5e
+      internalID: 1056358391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_84
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 352
+        width: 80
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d085a8dc11aa9b499a5c847456fd2da
+      internalID: 1522594680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_85
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 352
+        width: 80
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e039e3a03a42bac45b3a424cd588e38f
+      internalID: 31739529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_86
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 353
+        width: 115
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71105212ee7625248847dcd98a611b28
+      internalID: -904062755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_87
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 450
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5b998fe340e6a418d8e31f40cc11be
+      internalID: 161541296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_88
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 439
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e76af7f05ae81c49939621c82c0dc1a
+      internalID: 630932392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 399
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5004068c52b39424d9bba8be118d4e78
+      internalID: -130812956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_90
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 368
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df204f8467e7535458cc3dac63d41efc
+      internalID: -1867007208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_91
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 313
+        width: 59
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af778fc049abce46bdb50b942ae5fae
+      internalID: 2070798587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_92
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 313
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4a114643307fa49a44ca686a477539
+      internalID: 1621133230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_93
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 311
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf707099853dade46b048104ea3d35d2
+      internalID: -124558556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_94
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 313
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb8ac45f988ee54baf0ab2b7942b064
+      internalID: -88131912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_95
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 313
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77208118c9cc99345a586fdb9d9f3944
+      internalID: 1926867055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_96
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 312
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f994ce8dbe9148a4f95fd2328511b4c4
+      internalID: -1371054333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_97
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 311
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1b2be809b2e43468bc7492031c194f
+      internalID: -332939367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_98
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 312
+        width: 75
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551efff374f39ab40ad7c6d573c11f0b
+      internalID: 2114937361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_99
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 311
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebfdc385c0a8814f869a869976f3877
+      internalID: -740558603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_100
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 313
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c558c4353fe42af4abe9da6ae97552d8
+      internalID: 771741899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_101
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 311
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602cf7fa88e91b04590b34105fc23903
+      internalID: -39497558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_102
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 312
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21df283258f7e9c4cb506e214f5dd5b4
+      internalID: -1246017177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_103
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 313
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d2aada2957dd34e85f288284fa00c5
+      internalID: 307152284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_104
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 311
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a765f78953f2b546a5ee7d6037912ee
+      internalID: -235451414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_105
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 204
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6cd7799d452a947a078e8cdc9b8c27
+      internalID: -1153333878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_106
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 204
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7759f87bbb2df02448a8004b9e7aed69
+      internalID: 668198541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_107
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 204
+        width: 80
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61a254982f66b246aba6883f05c2b8c
+      internalID: -567536625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_108
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 204
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2139552cf51a48c46a668abd295b3ea8
+      internalID: -1781174983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_109
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 205
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d99fe0cdf9f2d94f8ad5f30f259b84f
+      internalID: 748336609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_110
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 204
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8bea45896d8234ea5c3b827ffdd318
+      internalID: 1047863348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_111
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 204
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb681a3a5879a149972449d31295dd0
+      internalID: 640734048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_112
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 205
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee03b68d303a084084befff2308c4a5
+      internalID: -804292219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_113
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 204
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2ad3b6cb5233648a01115b02084bc3
+      internalID: -1243161319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_114
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 204
+        width: 81
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcba0bacbabf4b14e97414774894b3e3
+      internalID: -836470394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_115
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 162
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc31d644cbbdfc4bb90fad8b69c5deb
+      internalID: 1258976280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_116
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 161
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe41c1292c7dbd4cae92c0b07c388f7
+      internalID: -1945818730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_117
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 51
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdc003dd694ebf45954e076a1e92f97
+      internalID: 357994959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_118
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 20
+        width: 119
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f316285ae381f5046bc96f2f1e0f7d3b
+      internalID: -1330973454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_119
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 4
+        width: 147
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c8e02c88610ee4f8c17ca5c36fd8f2
+      internalID: 343672612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_120
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 15
+        width: 146
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f401a760031a868488e456b6e7ab4327
+      internalID: -1000159123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_121
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 92
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5832335a36760d74cab0918c9d930fcd
+      internalID: 1680812743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_122
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 70
+        width: 86
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab996458725228f4eae4573835181696
+      internalID: -1467552608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_123
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 54
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf1f783bc20d9a419d65ec303aea1b0
+      internalID: 896927567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroRacing_SpriteSheet_v2_124
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 20
+        width: 104
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb623ba87a22fc8418605240778aa94c
+      internalID: -668351150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":120.0,"y":120.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":5.0,"y":3.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      RetroRacing_SpriteSheet_v2_0: -1386301254
+      RetroRacing_SpriteSheet_v2_1: 1112616036
+      RetroRacing_SpriteSheet_v2_10: 1467980042
+      RetroRacing_SpriteSheet_v2_100: 771741899
+      RetroRacing_SpriteSheet_v2_101: -39497558
+      RetroRacing_SpriteSheet_v2_102: -1246017177
+      RetroRacing_SpriteSheet_v2_103: 307152284
+      RetroRacing_SpriteSheet_v2_104: -235451414
+      RetroRacing_SpriteSheet_v2_105: -1153333878
+      RetroRacing_SpriteSheet_v2_106: 668198541
+      RetroRacing_SpriteSheet_v2_107: -567536625
+      RetroRacing_SpriteSheet_v2_108: -1781174983
+      RetroRacing_SpriteSheet_v2_109: 748336609
+      RetroRacing_SpriteSheet_v2_11: -216825016
+      RetroRacing_SpriteSheet_v2_110: 1047863348
+      RetroRacing_SpriteSheet_v2_111: 640734048
+      RetroRacing_SpriteSheet_v2_112: -804292219
+      RetroRacing_SpriteSheet_v2_113: -1243161319
+      RetroRacing_SpriteSheet_v2_114: -836470394
+      RetroRacing_SpriteSheet_v2_115: 1258976280
+      RetroRacing_SpriteSheet_v2_116: -1945818730
+      RetroRacing_SpriteSheet_v2_117: 357994959
+      RetroRacing_SpriteSheet_v2_118: -1330973454
+      RetroRacing_SpriteSheet_v2_119: 343672612
+      RetroRacing_SpriteSheet_v2_12: -1389779858
+      RetroRacing_SpriteSheet_v2_120: -1000159123
+      RetroRacing_SpriteSheet_v2_121: 1680812743
+      RetroRacing_SpriteSheet_v2_122: -1467552608
+      RetroRacing_SpriteSheet_v2_123: 896927567
+      RetroRacing_SpriteSheet_v2_124: -668351150
+      RetroRacing_SpriteSheet_v2_13: -1707388002
+      RetroRacing_SpriteSheet_v2_14: 1689910062
+      RetroRacing_SpriteSheet_v2_15: 703879419
+      RetroRacing_SpriteSheet_v2_16: 1872183143
+      RetroRacing_SpriteSheet_v2_17: 1189438138
+      RetroRacing_SpriteSheet_v2_18: 1918076206
+      RetroRacing_SpriteSheet_v2_19: -1619129170
+      RetroRacing_SpriteSheet_v2_2: -975286621
+      RetroRacing_SpriteSheet_v2_20: 1893998516
+      RetroRacing_SpriteSheet_v2_21: 74773639
+      RetroRacing_SpriteSheet_v2_22: 438238949
+      RetroRacing_SpriteSheet_v2_23: 1101560978
+      RetroRacing_SpriteSheet_v2_24: -573611617
+      RetroRacing_SpriteSheet_v2_25: 1777221344
+      RetroRacing_SpriteSheet_v2_26: 1764301818
+      RetroRacing_SpriteSheet_v2_27: 1177494528
+      RetroRacing_SpriteSheet_v2_28: 329381093
+      RetroRacing_SpriteSheet_v2_29: 1435704148
+      RetroRacing_SpriteSheet_v2_3: 1280232787
+      RetroRacing_SpriteSheet_v2_30: 994871538
+      RetroRacing_SpriteSheet_v2_31: -685093127
+      RetroRacing_SpriteSheet_v2_32: -587787811
+      RetroRacing_SpriteSheet_v2_33: -981524303
+      RetroRacing_SpriteSheet_v2_34: -1726471306
+      RetroRacing_SpriteSheet_v2_35: 235641902
+      RetroRacing_SpriteSheet_v2_36: -1830856962
+      RetroRacing_SpriteSheet_v2_37: 409618797
+      RetroRacing_SpriteSheet_v2_38: -1906073834
+      RetroRacing_SpriteSheet_v2_39: -1570534100
+      RetroRacing_SpriteSheet_v2_4: -141121519
+      RetroRacing_SpriteSheet_v2_40: -821256730
+      RetroRacing_SpriteSheet_v2_41: -911023785
+      RetroRacing_SpriteSheet_v2_42: 1401597501
+      RetroRacing_SpriteSheet_v2_43: 1719221832
+      RetroRacing_SpriteSheet_v2_44: 1027567023
+      RetroRacing_SpriteSheet_v2_45: 1838918977
+      RetroRacing_SpriteSheet_v2_46: -554793256
+      RetroRacing_SpriteSheet_v2_47: -110665201
+      RetroRacing_SpriteSheet_v2_48: -2103717812
+      RetroRacing_SpriteSheet_v2_49: -1131858514
+      RetroRacing_SpriteSheet_v2_5: 1897841631
+      RetroRacing_SpriteSheet_v2_50: -254364463
+      RetroRacing_SpriteSheet_v2_51: -298944139
+      RetroRacing_SpriteSheet_v2_52: 1636042037
+      RetroRacing_SpriteSheet_v2_53: 806051232
+      RetroRacing_SpriteSheet_v2_54: 732587633
+      RetroRacing_SpriteSheet_v2_55: -205105465
+      RetroRacing_SpriteSheet_v2_56: -1740198674
+      RetroRacing_SpriteSheet_v2_57: 750603124
+      RetroRacing_SpriteSheet_v2_58: -700277888
+      RetroRacing_SpriteSheet_v2_59: -1473840993
+      RetroRacing_SpriteSheet_v2_6: 1103750502
+      RetroRacing_SpriteSheet_v2_60: 1329458380
+      RetroRacing_SpriteSheet_v2_61: -829761901
+      RetroRacing_SpriteSheet_v2_62: 1830147408
+      RetroRacing_SpriteSheet_v2_63: -864020227
+      RetroRacing_SpriteSheet_v2_64: 793148653
+      RetroRacing_SpriteSheet_v2_65: -303604206
+      RetroRacing_SpriteSheet_v2_66: -1485567399
+      RetroRacing_SpriteSheet_v2_67: -1446716202
+      RetroRacing_SpriteSheet_v2_68: 2117539918
+      RetroRacing_SpriteSheet_v2_69: -1694217028
+      RetroRacing_SpriteSheet_v2_7: -47178736
+      RetroRacing_SpriteSheet_v2_70: -1761527399
+      RetroRacing_SpriteSheet_v2_71: 1563457012
+      RetroRacing_SpriteSheet_v2_72: 66424372
+      RetroRacing_SpriteSheet_v2_73: 1115507185
+      RetroRacing_SpriteSheet_v2_74: 1596690581
+      RetroRacing_SpriteSheet_v2_75: 1964828643
+      RetroRacing_SpriteSheet_v2_76: 1839708686
+      RetroRacing_SpriteSheet_v2_77: -1228859310
+      RetroRacing_SpriteSheet_v2_78: 467382735
+      RetroRacing_SpriteSheet_v2_79: -1582562228
+      RetroRacing_SpriteSheet_v2_8: -1907075136
+      RetroRacing_SpriteSheet_v2_80: 1856732859
+      RetroRacing_SpriteSheet_v2_81: 736253514
+      RetroRacing_SpriteSheet_v2_82: 813222126
+      RetroRacing_SpriteSheet_v2_83: 1056358391
+      RetroRacing_SpriteSheet_v2_84: 1522594680
+      RetroRacing_SpriteSheet_v2_85: 31739529
+      RetroRacing_SpriteSheet_v2_86: -904062755
+      RetroRacing_SpriteSheet_v2_87: 161541296
+      RetroRacing_SpriteSheet_v2_88: 630932392
+      RetroRacing_SpriteSheet_v2_89: -130812956
+      RetroRacing_SpriteSheet_v2_9: -435179685
+      RetroRacing_SpriteSheet_v2_90: -1867007208
+      RetroRacing_SpriteSheet_v2_91: 2070798587
+      RetroRacing_SpriteSheet_v2_92: 1621133230
+      RetroRacing_SpriteSheet_v2_93: -124558556
+      RetroRacing_SpriteSheet_v2_94: -88131912
+      RetroRacing_SpriteSheet_v2_95: 1926867055
+      RetroRacing_SpriteSheet_v2_96: -1371054333
+      RetroRacing_SpriteSheet_v2_97: -332939367
+      RetroRacing_SpriteSheet_v2_98: 2114937361
+      RetroRacing_SpriteSheet_v2_99: -740558603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

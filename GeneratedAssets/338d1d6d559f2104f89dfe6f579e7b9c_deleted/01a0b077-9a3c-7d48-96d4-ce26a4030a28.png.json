@@ -1,0 +1,41 @@
+{
+    "asset": "338d1d6d559f2104f89dfe6f579e7b9c",
+    "fileName": "01a0b077-9a3c-7d48-96d4-ce26a4030a28.png",
+    "prompt": "A clean retro 2D pixel art sprite sheet for a top-down arcade racing game, strictly matching the 8-bit/16-bit arcade pixel art style and color palette of the reference image.\n\nBACKGROUND REQUIREMENT (CRITICAL):\nThe background MUST be a single 100% SOLID FLAT CHROMA GREEN (#00FF00).\nDO NOT DRAW ANY CHECKERBOARD PATTERN. DO NOT DRAW ANY GREY SQUARES OR FAKE TRANSPARENCY PATTERNS.\nNO TEXT LABELS, NO CAPTIONS, NO WRITTEN WORDS anywhere on the image. ONLY the raw sprite graphics cleanly spaced on a grid.\n\nSPRITES TO INCLUDE:\n\n1. PLAYER (Blue Race Car, pointed-nose arcade racer matching the blue car in reference):\n- Driving Up: 4 animation frames\n- Driving Down: 4 animation frames\n- Driving Left: 4 animation frames\n- Driving Right: 4 animation frames\n\n2. PLAYER EXPLOSION (10-frame dramatic massive fireball sequence ending in wreckage):\n- Frame 1: White ignition flash on blue car with spark bursts\n- Frame 2: Fire erupting outwards from car\n- Frame 3: Expanding violent red/orange/yellow fire\n- Frame 4: Massive roaring fireball completely consuming the car with large outward flames\n- Frame 5: Maximum peak giant fireball with flying debris shards and sparks\n- Frame 6: Fireball collapsing inward with dense churning orange-red flames\n- Frame 7: Billowing thick black and dark-grey smoke cloud replacing fire\n- Frame 8: Smoke thinning, revealing the black charred car chassis underneath\n- Frame 9: Black burnt wreckage of the car with small smoke wisps\n- Frame 10: Final black burnt charred wreckage of the car resting silently\n\n3. ENEMY (Red Race Car, matching red car in reference):\n- Driving Up: 4 animation frames\n- Driving Down: 4 animation frames\n- Driving Left: 4 animation frames\n- Driving Right: 4 animation frames\n- Stunned State: 2 frames color-blink (Frame 1: exact same car silhouette in pure desaturated bright WHITE; Frame 2: exact same car silhouette in light GREY; no rotation, no red, no stars)\n\n4. FLAGS (Pennant flag on flagpole, lively flapping animation, 4 frames each, matching yellow flag in reference):\n- Blank Yellow Flag: 4 flapping frames\n- Yellow Flag with bold red letter 'S': 4 flapping frames\n- Yellow Flag with bold red letter 'L': 4 flapping frames\n\n5. SMOKE / GAS SCREEN (Cream / pale-yellow puffy cartoon smoke sequence, 6 frames, matching smoke in reference):\n- 6 sequential frames: small puff -> expanding puff -> medium cloud -> thick billowy cloud -> dispersing mist -> dissolving wisps\n\nSolid flat #00FF00 green background behind everything. Cleanly spaced grid, crisp pixel art edges.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "7a57bfd7a3241534bbed2a8e8f8200e1",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

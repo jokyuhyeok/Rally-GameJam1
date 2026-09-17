@@ -1,0 +1,41 @@
+{
+    "asset": "0ea8d411ee5d54b4eab3c3e37cf02f27",
+    "fileName": "01a0b057-acd5-7118-8da3-8adefcf56240.png",
+    "prompt": "Edit ONLY the two car sprites in the \"ENEMY STUNNED\" area (top-left area, just below the enemy driving cars). Do not change anything else on the sheet — leave all player cars, enemy driving cars, explosion, flags and smoke exactly as they are.\n\nFor the two ENEMY STUNNED cars:\n- Keep the EXACT same top-down car silhouette, shape and pixel outline as the red enemy car.\n- Completely REMOVE all red color and REMOVE the little star/sparkle decorations.\n- Frame 1 (left): recolor the entire car body to PURE BRIGHT WHITE (a desaturated white car), keeping dark outlines and black wheels.\n- Frame 2 (right): recolor the entire car body to LIGHT GREY, keeping dark outlines and black wheels.\nThis represents a white/grey color-blink stun effect. Same pose as the driving car, not rotated, no red, no stars. Match the retro pixel art style and outlines.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "0ea8d411ee5d54b4eab3c3e37cf02f27",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

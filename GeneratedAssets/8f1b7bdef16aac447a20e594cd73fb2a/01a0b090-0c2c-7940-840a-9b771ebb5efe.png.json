@@ -1,0 +1,41 @@
+{
+    "asset": "8f1b7bdef16aac447a20e594cd73fb2a",
+    "fileName": "01a0b090-0c2c-7940-840a-9b771ebb5efe.png",
+    "prompt": "Keep every existing sprite in this pixel art sheet EXACTLY as it is — the blue cars, all explosion frames, red cars, white/grey cars, the 4 blank yellow flags, the existing red-'S' and red-'L' flags, and the smoke cloud. Do not change their style, colors, or positions. Keep the background FULLY TRANSPARENT (alpha = 0, no checkerboard, no fill). Match the same sharp 16-bit pixel art, hard edges, no anti-aliasing.\n\nMake ONLY these adjustments, using the empty transparent space, keeping neat evenly-spaced rows with wide gaps for auto-slicing:\n\n1. The row of YELLOW flags with the red letter 'S' must have 4 frames total (add 2 more waving frames so there are 4 red-'S' flags).\n2. The row of YELLOW flags with the red letter 'L' must have 4 frames total (add 2 more waving frames so there are 4 red-'L' flags).\n3. The grey SMOKE CLOUD row must have 6 frames total (add 1 more frame): small puff, growing to a big thick cloud, then thinning and fading to wisps.\n4. Remove the single stray lone blank yellow flag at the bottom-left, leaving that area empty transparent.\n\nDo NOT add any other objects and do NOT write any text except the red 'S' and red 'L' on their flags.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "8f1b7bdef16aac447a20e594cd73fb2a",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "asset": "0ea8d411ee5d54b4eab3c3e37cf02f27",
+    "fileName": "01a0b060-bb9a-74de-87e8-36cf31dc5995.png",
+    "prompt": "Edit ONLY the PLAYER EXPLOSION / DEATH sequence row of this pixel art sprite sheet. Do NOT change anything else — keep all top-down player cars, all enemy driving cars, the enemy STUNNED white/grey frames, all flags (blank, S, L), and the smoke/gas cloud row EXACTLY as they are.\n\nFor the explosion sequence, make the FIRE MUCH BIGGER and more dramatic. Redraw it as a 6-frame sequence in the same retro pixel art style, palette and outlines:\nFrame 1: bright white-hot ignition flash on the blue car with radiating sparks.\nFrame 2: a LARGE growing fireball beginning to engulf the blue car, big red/orange/yellow flames shooting outward.\nFrame 3: a MASSIVE, ROARING fireball completely consuming the blue car — huge intense flames of red, orange, and bright yellow shooting outward in all directions, flying debris and sparks, filling the whole cell. This is the biggest, brightest frame.\nFrame 4: still a huge fireball but starting to collapse, flames turning darker orange with heavy smoke and embers mixing in.\nFrame 5: flames dying down into thick dark smoke revealing the beginning of a black burnt car wreck.\nFrame 6: the final BLACK BURNT WRECKAGE of the car with a few last smoke wisps (keep this final wreckage look, it is perfect).\n\nEmphasis: frames 2, 3 and 4 must show a much larger, brighter, more intense fireball with large flames than before. Keep the same pixel scale and cell grid so it aligns with the rest of the sheet.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "0ea8d411ee5d54b4eab3c3e37cf02f27",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "asset": "0ea8d411ee5d54b4eab3c3e37cf02f27",
+    "fileName": "01a0b053-71c8-70ab-a15a-4b7a3fa2979f.png",
+    "prompt": "A single complete 2D pixel art sprite sheet for a retro top-down arcade racing game (classic Rally-X style, 8-bit/16-bit arcade). MUST strictly match the exact art style, palette, and pixel resolution of the provided reference image: the same chunky pixel look, the same bright royal-blue player car with a pointed front, the same crimson-red enemy car, the same golden-yellow flag with a bold red letter, and the same cream/pale-yellow puffy cartoon smoke clouds. Solid plain background, sprites cleanly arranged on an evenly-spaced grid with no overlap, uniform cell sizes, sharp crisp pixel outlines. Transparent-friendly plain backdrop.\n\nThe sheet MUST contain ALL of the following four categories — do NOT omit any:\n\nROW 1 & 2 — PLAYER (Blue Race Car), top-down view, pointed-nose blue arcade car exactly like the reference:\n- Driving Up: 4 frames (slight bounce, wheels turning)\n- Driving Down: 4 frames\n- Driving Left: 4 frames\n- Driving Right: 4 frames\n\nROW 3 — PLAYER DEATH / EXPLOSION (6 frames), BIG, FLASHY and DRAMATIC:\nFrame 1: bright white-hot ignition flash with radiating sparks\nFrame 2: large expanding vivid orange-and-yellow fireball with flying debris shards and spark streaks\nFrame 3: massive intense fireball at peak, red-orange core, bright yellow edges, lots of sparks\nFrame 4: fireball collapsing into thick dark smoke with lingering embers\nFrame 5: large billowing grey smoke cloud dissipating\nFrame 6: faint fading ashes and thin smoke wisps\nMake it clearly much larger and more explosive than a small blast.\n\nROW 4 — ENEMY (Red Race Car), top-down crimson-red car exactly matching reference:\n- Driving Up: 4 frames\n- Driving Down: 4 frames\n- Driving Left: 4 frames\n- Driving Right: 4 frames\n- STUNNED STATE: 2 frames. IMPORTANT: keep the EXACT same car shape/silhouette as the red driving frames, but the FIRST stunned frame is the car fully desaturated to pure bright WHITE, and the SECOND stunned frame is the car in light grey. This is a color-based blink (white/grey flashing), NOT a rotation and NOT a red car. Same pose, only the color changes.\n\nROW 5 — FLAGS (golden-yellow pennant flags on a pole, matching reference flag), lively flapping-in-the-wind animation, 4 frames each:\n- Blank Yellow Flag: 4 flapping frames\n- Special Flag: yellow flag with a bold RED letter 'S', 4 flapping frames\n- Lucky Flag: yellow flag with a bold RED letter 'L', 4 flapping frames\n\nROW 6 — SMOKE / GAS CLOUD (cream/pale-yellow puffy cartoon smoke exactly like the reference clouds), 6 frames:\nFrame 1: tiny small puff\nFrame 2: small growing cloud\nFrame 3: medium fluffy cloud\nFrame 4: thick large billowy cloud (maximum size)\nFrame 5: cloud thinning and starting to fade\nFrame 6: faint dissolving wisps almost gone.\n\nUniform pixel scale, retro arcade feel, everything on one neat grid.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "7a57bfd7a3241534bbed2a8e8f8200e1",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

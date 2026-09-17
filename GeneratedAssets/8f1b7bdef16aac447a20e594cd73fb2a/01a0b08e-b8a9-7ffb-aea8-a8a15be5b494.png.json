@@ -1,0 +1,41 @@
+{
+    "asset": "8f1b7bdef16aac447a20e594cd73fb2a",
+    "fileName": "01a0b08e-b8a9-7ffb-aea8-a8a15be5b494.png",
+    "prompt": "Keep every existing sprite in this pixel art sheet EXACTLY as it is (the blue cars, all explosion frames, red cars, white/grey cars, and the one yellow flag already present) — do not move, alter, or delete any of them. Only ADD new sprites into the empty transparent areas, matching the same sharp 16-bit pixel art style, hard edges, no anti-aliasing, and keeping the background FULLY TRANSPARENT (alpha = 0, no checkerboard, no fill).\n\nAdd these missing sprites, arranged as neat evenly-spaced rows in the empty transparent space, with wide gaps for auto-slicing:\n\n- A row of 4 frames: plain BLANK YELLOW flag on a pole, waving (wavy cloth, rippling differently each frame).\n- A row of 4 frames: YELLOW flag with a bold RED letter 'S' on it, waving (4 wavy frames).\n- A row of 4 frames: YELLOW flag with a bold RED letter 'L' on it, waving (4 wavy frames).\n- A row of 6 frames: grey SMOKE CLOUD sequence — small puff, growing into a big thick cloud, then thinning and fading to wisps.\n\nDo NOT add any other objects and do NOT write any text except the red 'S' and red 'L' on their flags.",
+    "negativePrompt": "",
+    "model": "gemini-3.0-pro",
+    "modelName": "Gemini 3.0 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "8f1b7bdef16aac447a20e594cd73fb2a",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}
