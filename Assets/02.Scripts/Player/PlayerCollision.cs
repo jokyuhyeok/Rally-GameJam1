@@ -3,12 +3,19 @@ using UnityEngine;
 // 플레이어의 깃발, 적과의 충돌을 관리하는 클래스
 public class PlayerCollision : MonoBehaviour
 {
+    [SerializeField] private AudioClip _explosionSound; // 💡 인스펙터에서 폭발음 넣을 칸
+    private AudioSource _audioSource;
     private Animator _animator;
     
     private void Start()
     {
         // 게임 시작 시 Player에 붙어있는 Animator 컴포넌트 가져오기
         _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
+        if (_audioSource == null)
+        {
+            _audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
     
     private void OnTriggerEnter2D(Collider2D collision)
@@ -19,6 +26,12 @@ public class PlayerCollision : MonoBehaviour
         // 적 Tag를 가진 오브젝트와 만나면 게임오버.
         if (collision.CompareTag("Enemy") || collision.CompareTag("Obstacle"))
         {
+            // 부딪히는 순간 폭발 사운드 재생
+            if (_explosionSound != null && _audioSource != null)
+            {
+                _audioSource.PlayOneShot(_explosionSound);
+            }
+
             // 1. 사망 애니메이션 스위치 켜기
             if (_animator != null)
             {
