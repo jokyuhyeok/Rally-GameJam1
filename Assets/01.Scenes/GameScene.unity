@@ -13598,12 +13598,20 @@ PrefabInstance:
       value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 8503341117125834115, guid: 032c096b1647b7247ad777cf9a375556, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503341117125834115, guid: 032c096b1647b7247ad777cf9a375556, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503341117125834115, guid: 032c096b1647b7247ad777cf9a375556, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.68
+      value: -0.563
       objectReference: {fileID: 0}
     - target: {fileID: 8503341117125834115, guid: 032c096b1647b7247ad777cf9a375556, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.65
+      value: -5.564
       objectReference: {fileID: 0}
     - target: {fileID: 8503341117125834115, guid: 032c096b1647b7247ad777cf9a375556, type: 3}
       propertyPath: m_LocalPosition.z

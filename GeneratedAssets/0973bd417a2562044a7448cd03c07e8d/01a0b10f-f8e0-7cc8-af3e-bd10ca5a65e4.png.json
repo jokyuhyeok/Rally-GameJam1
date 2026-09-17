@@ -1,0 +1,31 @@
+{
+    "asset": "0973bd417a2562044a7448cd03c07e8d",
+    "fileName": "01a0b10f-f8e0-7cc8-af3e-bd10ca5a65e4.png",
+    "prompt": "A top-down 2D game sprite of a gray rock boulder obstacle, retro arcade racing game style, bird's-eye view, clean solid white background, sharp details, game asset design",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}
