@@ -36,6 +36,12 @@ public class EnemyNavigator : MonoBehaviour
 
     private void Update()
     {
+        // 게임 시작 타이머가 끝나지 않았다면 적도 움직이지 않음 (대기)
+        if (GameManager.Instance != null && !GameManager.Instance.IsGameStarted)
+        {
+            return;
+        }
+        
         if (_isStunned)
         {
             _stunTimer -= Time.deltaTime;

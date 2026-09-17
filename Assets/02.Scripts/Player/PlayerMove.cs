@@ -29,6 +29,12 @@ public class PlayerMove : MonoBehaviour
 
     private void Update()
     {
+        // 게임 시작 타이머가 끝나지 않았다면 아무것도 안 함 (이동 정지)
+        if (GameManager.Instance != null && !GameManager.Instance.IsGameStarted)
+        {
+            return; 
+        }
+        
         // 게임 오버이거나 연료가 바닥났다면 정지
         if (GameManager.Instance != null && (GameManager.Instance.IsGameOver || GameManager.Instance.IsFuelEmpty))
         {

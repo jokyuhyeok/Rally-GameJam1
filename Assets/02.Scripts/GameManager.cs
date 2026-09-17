@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 // 게임에서의 점수, 시간 제한(체력 / 연료), 깃발 획득 목표 관련 클래스
 public class GameManager : MonoBehaviour
@@ -6,11 +8,19 @@ public class GameManager : MonoBehaviour
     // 다른 스크립트에서 GameInstance로 부를 수 있게 해줌
     public static GameManager Instance { get; private set; }
     
+    [SerializeField] private TextMeshProUGUI _countdownText; // 💡 카운트다운 글자
+    
     // 연료량과 초당 연료 소모량 (시간제한과 같음.)
     [SerializeField] private float _maxFuel = 100f;
     [SerializeField] private float _currentFuel = 100f;
     [SerializeField] private float _fuelUseForSec = 1f;
 
+    // 3초 대기 타이머
+    private float _startTimer = 3.99f; 
+
+    // 타이머가 0 이하가 되면 true 반환
+    public bool IsGameStarted => _startTimer <= 0f;
+    
     private bool _isGameOver = false;
     private bool _isFuelEmpty = false;
     
@@ -32,6 +42,25 @@ public class GameManager : MonoBehaviour
         
     private void Update()
     {
+        // 타이머 계산 (3초 대기)
+        if (_startTimer > 0f)
+        {
+            _startTimer -= Time.deltaTime; // 매 프레임 시간 깎기
+
+            if (_countdownText != null)
+            {
+                // 소수점 올림으로 3, 2, 1 표시
+                _countdownText.text = Mathf.FloorToInt(_startTimer).ToString(); 
+            }
+            
+            return; // 타이머가 안 끝났으면 밑으로 안 내려감 (연료 소모 정지)
+        }
+        // 타이머가 0이 되고, 텍스트가 켜져있다면 GO!로 바꾸고 잠시 후 끄기 등 처리 가능
+        else if (_countdownText != null && _countdownText.gameObject.activeSelf)
+        {
+            _countdownText.gameObject.SetActive(false); // 글자 숨김
+        }
+        
         // 게임 오버면 아무것도 하지 않음
         if (_isGameOver || _isFuelEmpty)
         {
