@@ -112,4 +112,10 @@ public class PlayerMove : MonoBehaviour
     {
         return (onedirection + otherdirection) == Vector3.zero;
     }
+
+    // Enemy Navigator에서 참조하기 좋게 함수 생성함.
+    public Vector3 GetCurrentDirection()
+    {
+        return _currentDirection;
+    }
 }
