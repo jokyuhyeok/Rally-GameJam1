@@ -12,10 +12,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _fuelUseForSec = 1f;
 
     private bool _isGameOver = false;
+    private bool _isFuelEmpty = false;
     
     public float MaxFuel => _maxFuel;
     public float CurrentFuel => _currentFuel;
     public bool IsGameOver => _isGameOver;
+    public bool IsFuelEmpty => _isFuelEmpty;
     
     private void Awake()
     {
@@ -31,7 +33,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         // 게임 오버면 아무것도 하지 않음
-        if (_isGameOver)
+        if (_isGameOver || _isFuelEmpty)
         {
             return;
         }
@@ -47,7 +49,8 @@ public class GameManager : MonoBehaviour
         if (_currentFuel <= 0f)
         {
             _currentFuel = 0f;
-            GameOver();;
+            _isFuelEmpty = true;
+            Debug.Log("연료가 바닥나서 차가 멈췄습니다!");
         }
     }
     
@@ -60,11 +63,13 @@ public class GameManager : MonoBehaviour
     
     public bool UseFuel(float cost)
     {
-        if (_currentFuel >= cost)
+        // 연료가 고갈되었거나 부족하면 사용 불가
+        if (_isFuelEmpty || _currentFuel < cost)
         {
-            _currentFuel -= cost;
-            return true;
+            return false;
         }
-        return false;
+        
+        _currentFuel -= cost;
+        return true;
     }
 }

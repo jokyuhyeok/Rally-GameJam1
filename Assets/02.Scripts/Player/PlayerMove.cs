@@ -29,14 +29,13 @@ public class PlayerMove : MonoBehaviour
 
     private void Update()
     {
-        // 게임 오버 상태라면 바로 종료시킴
-        if (GameManager.Instance != null && GameManager.Instance.IsGameOver)
+        // 게임 오버이거나 연료가 바닥났다면 정지
+        if (GameManager.Instance != null && (GameManager.Instance.IsGameOver || GameManager.Instance.IsFuelEmpty))
         {
             return; 
         }
-        
+    
         UserKeyInput();
-
         Move();
     }
 
