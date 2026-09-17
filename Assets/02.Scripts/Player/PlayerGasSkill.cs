@@ -23,8 +23,16 @@ public class PlayerGasSkill : MonoBehaviour
 
     private void UseGasSkill()
     {
-        Debug.Log($"뿡! 연료를 {_gasCost}만큼 소모하여 방귀를 뀌엇다.");
-
-        Vector3 backDirection = -_playerMove.GetCurrentDirection();
+        // 연료 차감을 요청하고 성공했을 때
+        if (GameManager.Instance.UseFuel(_gasCost))
+        {
+            Debug.Log($"뿡! 연료를 {_gasCost}만큼 소모하여 방귀를 뀌엇다.");
+            Vector3 backDirection = -_playerMove.GetCurrentDirection();
+        }
+        // 연료 차감 요청 실패했을 때
+        else
+        {
+            Debug.Log($"악! 연료가 부족해서 방귀를 뀔 수 없다.");
+        }
     }
 }

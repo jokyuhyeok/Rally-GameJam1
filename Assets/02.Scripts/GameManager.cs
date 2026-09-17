@@ -110,4 +110,18 @@ public class GameManager : MonoBehaviour
     {
         return _flagCount * _scoreNormalFlag;
     }
+
+    // player 연료 스킬 사용시 연료 차감
+    public bool UseFuel(float cost)
+    {
+        // 남은 연료가 소모량 보다 많다? => 발동 성공
+        if (_currentFuel >= cost)
+        {
+            _currentFuel -= cost;
+            return true;
+        }
+
+        // 연료가 모자라다? => 스킬 발동 실패
+        return false;
+    }
 }
