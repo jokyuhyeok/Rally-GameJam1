@@ -33,6 +33,19 @@ public class ScoreManager : MonoBehaviour
 
         LoadHiScore(); // 게임 시작 시 저장된 최고 점수 불러오기
     }
+    
+    private void Update()
+    {
+        // 키보드 F12 키를 눌렀을 때
+        if (Input.GetKeyDown(KeyCode.F12)) 
+        {
+            PlayerPrefs.DeleteKey("HI_SCORE"); 
+            
+            // 현재 화면과 변수에도 0(또는 기본값)으로 즉시 반영
+            _hiScore = 20000; // 처음 세팅했던 기본 하이스코어 값
+            Debug.Log("하이스코어 데이터가 초기화되었습니다!");
+        }
+    }
 
     // PlayerPrefs로 하이스코어 불러오기
     private void LoadHiScore()
