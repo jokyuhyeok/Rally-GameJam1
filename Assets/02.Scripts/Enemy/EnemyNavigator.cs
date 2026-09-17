@@ -15,6 +15,9 @@ public class EnemyNavigator : MonoBehaviour
     private Vector3 _targetPosition;
     private float _gridSize = 1f;
 
+    private bool _isStunned = false;
+    private float _stunTimer = 0f;
+
     // 길찾기용 4방향 배열 선언
     private readonly Vector3Int[] _directions = { Vector3Int.up, Vector3Int.down, Vector3Int.left, Vector3Int.right };
 
@@ -30,6 +33,16 @@ public class EnemyNavigator : MonoBehaviour
 
     private void Update()
     {
+        if (_isStunned)
+        {
+            _stunTimer -= Time.deltaTime;
+            if (_stunTimer <= 0f)
+            {
+                _isStunned = false;
+                Debug.Log("스턴 끝! 다시 쫓아간다.");
+            }
+        }
+
         MoveToNextTile();
     }
 
@@ -44,8 +57,16 @@ public class EnemyNavigator : MonoBehaviour
         {
             transform.position = _targetPosition;
 
-            // 두뇌에게 다음 목적지를 물어보고, 길을 찾는다!
-            _currentDirection = DecideNextDirection();
+            if (_isStunned)
+            {
+                _currentDirection = Vector3.zero;
+            }
+            else
+            {
+                // 두뇌에게 다음 목적지를 물어보고, 길을 찾는다!
+                _currentDirection = DecideNextDirection();
+            }
+
             _targetPosition = transform.position + (_currentDirection * _gridSize);
         }
     }
@@ -124,5 +145,17 @@ public class EnemyNavigator : MonoBehaviour
         }
 
         return -_currentDirection; // 꼼짝 못하면 제자리 U턴
+    }
+
+
+    // 스턴 적용 메서드
+    public void Stun(float stunTime)
+    {
+        if (_isStunned) return;
+
+        _isStunned = true;
+        _stunTimer = stunTime;
+
+        Debug.Log("나 기절!");
     }
 }
