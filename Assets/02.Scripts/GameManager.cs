@@ -52,10 +52,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void GameOver()
+    public void GameOver()
     {
         _isGameOver = true;
-        Debug.LogError("연료 바닥! 게임 오버입니다!");
+        Debug.LogError("게임 오버입니다!");
     }
 
     // 깃발 획득 시 깃발 종류에 따라 점수 계산 후 최종 점수 반환

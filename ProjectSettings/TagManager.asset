@@ -7,6 +7,8 @@ TagManager:
   - Flag
   - S_Flag
   - L_Flag
+  - Enemy
+  - Obstacle
   layers:
   - Default
   - TransparentFX
