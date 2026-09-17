@@ -11,18 +11,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _fuelUseForSec = 1f;
     private bool _isGameOver = false;
 
-    // 깃발 획득 시 올라갈 점수 수치 조정
-    [SerializeField] private int _scoreNormalFlag;
-    [SerializeField] private int _score_S_Flag_Multiplier;
-    [SerializeField] private int _score_L_Flag_Ratio;
-
-    private int _score = 0;
-    private int _flagCount = 0;
-    private bool _activate_S_Flag = false;
+    public float CurrentFuel => _currentFuel;
+    public bool IsGameOver => _isGameOver;
 
     private void Awake()
     {
-        // 씬 시작 시 자신을 Instance에 등록
+        // 게임시작시 자신을 인스턴스에 등록
         if (Instance == null)
         {
             Instance = this;
@@ -32,11 +26,9 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         if (_isGameOver)
-        {
             return;
-        }
 
-        // 2. 연료 계산 및 체크 
+        // 연료 계산 및 체크
         UpdateFuel();
     }
 
@@ -56,72 +48,29 @@ public class GameManager : MonoBehaviour
     {
         _isGameOver = true;
         Debug.LogError("게임 오버입니다!");
+        Time.timeScale = 0f; // 아까 이야기했던 정지 기능 포함
     }
 
-    // 깃발 획득 시 깃발 종류에 따라 점수 계산 후 최종 점수 반환
+    // 깃발 습득 요청이 오면 ScoreManager에게 현재 연료량과 함께 토스!
     public void CollectFlag(string flagType)
     {
-        _flagCount++;
-
-        int gainedScore = CalculateBaseScore(); // 기본 점수 계산
-
-        // 깃발이 S_깃발이면 깃발 획득 점수를 n배 늘린다.
-        S_Flag_Activate(flagType);
-        gainedScore = Score_S_Flag(gainedScore);
-
-        // 깃발이 L_깃발이면 남은 연료량에 비례해 보너스 점수를 획득
-        gainedScore = Score_L_Flag(flagType, gainedScore);
-
-        // 최종 점수
-        _score += gainedScore;
-        Debug.Log($"{flagType} 획득. (+{gainedScore}점) / 현재 총점 : {_score}");
-    }
-
-    private int Score_L_Flag(string flagType, int gainedScore)
-    {
-        if (flagType == "L_Flag")
+        if (ScoreManager.Instance != null)
         {
-            int fuelBonus = Mathf.FloorToInt(_currentFuel * _score_L_Flag_Ratio);
-            gainedScore += fuelBonus;
+            ScoreManager.Instance.CollectFlag(flagType, _currentFuel);
         }
-
-        return gainedScore;
-    }
-
-    private void S_Flag_Activate(string flagType)
-    {
-        if (flagType == "S_Flag")
-        {
-            _activate_S_Flag = true;
-        }
-    }
-
-    private int Score_S_Flag(int gainedScore)
-    {
-        if (_activate_S_Flag)
-        {
-            gainedScore *= _score_S_Flag_Multiplier;
-        }
-
-        return gainedScore;
-    }
-
-    private int CalculateBaseScore()
-    {
-        return _flagCount * _scoreNormalFlag;
     }
 
     // player 연료 스킬 사용시 연료 차감
     public bool UseFuel(float cost)
     {
-        // 남은 연료가 소모량 보다 많다? => 발동 성공
+        // 스킬 발동 성공
         if (_currentFuel >= cost)
         {
             _currentFuel -= cost;
             return true;
         }
 
-        // 연료가 모자라다? => 스킬 발동 실패
+        // 스킬 발동 실패
         return false;
     }
 }

@@ -13,7 +13,9 @@ public class PlayerCollision : MonoBehaviour
         // 깃발 태그를 가진 오브젝트를 만나면 점수 올라감.
         else if (collision.CompareTag("Flag") || collision.CompareTag("S_Flag") || collision.CompareTag("L_Flag"))
         {
-            GameManager.Instance.CollectFlag(collision.tag);
+            // 현재 연료량은 GameManager에서 가져와 토스
+            float currentFuel = GameManager.Instance != null ? GameManager.Instance.CurrentFuel : 0f;
+            ScoreManager.Instance.CollectFlag(collision.tag, currentFuel);
 
             Destroy(collision.gameObject);
         }
