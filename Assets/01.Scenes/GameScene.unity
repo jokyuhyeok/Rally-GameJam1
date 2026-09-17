@@ -12639,6 +12639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8479fc3aec9f444891febe32a16adcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCollision
+  _explosionSound: {fileID: 0}
 --- !u!95 &1399792625
 Animator:
   serializedVersion: 7
