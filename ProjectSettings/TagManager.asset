@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Flag
+  - S_Flag
+  - L_Flag
   layers:
   - Default
   - TransparentFX
