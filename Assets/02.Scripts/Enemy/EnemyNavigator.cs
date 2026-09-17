@@ -18,12 +18,15 @@ public class EnemyNavigator : MonoBehaviour
     private bool _isStunned = false;
     private float _stunTimer = 0f;
 
+    private Animator _animator;
+    
     // 길찾기용 4방향 배열 선언
     private readonly Vector3Int[] _directions = { Vector3Int.up, Vector3Int.down, Vector3Int.left, Vector3Int.right };
 
     private void Start()
     {
         _currentBrain = GetComponent<ITargetBrain>();
+        _animator = GetComponent<Animator>();
 
         // 시작할 때 타일 정중앙에 맞춤.
         Vector3Int tilePosition = _tilemap.WorldToCell(transform.position);
@@ -39,6 +42,10 @@ public class EnemyNavigator : MonoBehaviour
             if (_stunTimer <= 0f)
             {
                 _isStunned = false;
+                if (_animator != null)
+                {
+                    _animator.SetBool("IsStunned", false);
+                }
                 Debug.Log("스턴 끝! 다시 쫓아간다.");
             }
         }
@@ -156,6 +163,11 @@ public class EnemyNavigator : MonoBehaviour
 
         _isStunned = true;
         _stunTimer = stunTime;
+        
+        if (_animator != null)
+        {
+            _animator.SetBool("IsStunned", true);
+        }
 
         Debug.Log("나 기절!");
     }
