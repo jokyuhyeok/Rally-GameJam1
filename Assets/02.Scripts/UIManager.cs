@@ -14,8 +14,11 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private GameObject _gameOverPanel; // 에디터에서 연결할 게임 오버 패널
 
-    // 클리어 패널 연결할 빈칸
-    [SerializeField] private GameObject _gameClearPanel;
+    [SerializeField] private GameObject _gameClearPanel; // 클리어 패널 연결할 빈칸
+
+    // 쩍일 화면(하얀 도화지) 연결
+    [SerializeField] private Image _flashImage;
+    private float _flashAlpha = 0f; // 현재 번쩍임 투명도 (Update에서 깎아내림)
 
     private void Awake()
     {
@@ -34,17 +37,12 @@ public class UIManager : MonoBehaviour
             _fuelSlider.value = GameManager.Instance.MaxFuel;
         }
 
-        // 게임을 켤 때 혹시라도 게임 오버 화면이 켜져있으면 강제로 숨김
-        if (_gameOverPanel != null)
-        {
-            _gameOverPanel.SetActive(false);
-        }
+        // 게임을 켤 때 혹시라도 게임 오버/클리어 화면이 켜져있으면 강제로 숨김
+        if (_gameOverPanel != null) _gameOverPanel.SetActive(false);
+        if (_gameClearPanel != null) _gameClearPanel.SetActive(false);
 
-        // 게임 시작할 때 클리어 화면도 확실히 숨겨둠
-        if (_gameClearPanel != null)
-        {
-            _gameClearPanel.SetActive(false);
-        }
+        // 플래시 이미지도 처음엔 완전 투명하게(안 보이게) 세팅
+        if (_flashImage != null) _flashImage.color = new Color(1f, 1f, 1f, 0f);
     }
 
     private void Update()
@@ -65,23 +63,34 @@ public class UIManager : MonoBehaviour
             if (_fuelSlider != null)
                 _fuelSlider.value = GameManager.Instance.CurrentFuel;
         }
+
+        // 화면 번쩍임(Flash) 타이머 계산
+        if (_flashAlpha > 0f && _flashImage != null)
+        {
+            // 게임 시간이 멈춰도 번쩍임은 사라져야 하므로 unscaledDeltaTime 사용
+            _flashAlpha -= Time.unscaledDeltaTime * 2.5f;
+            _flashImage.color = new Color(1f, 1f, 1f, Mathf.Max(_flashAlpha, 0f));
+        }
     }
 
     // 게임 오버 시 GameManager가 호출하여 패널을 띄움
     public void ShowGameOver()
     {
-        if (_gameOverPanel != null)
-        {
-            _gameOverPanel.SetActive(true);
-        }
+        if (_gameOverPanel != null) _gameOverPanel.SetActive(true);
     }
 
     // 게임 클리어 시 호출하여 패널을 띄움
     public void ShowGameClear()
     {
-        if (_gameClearPanel != null)
+        if (_gameClearPanel != null) _gameClearPanel.SetActive(true);
+    }
+
+    // 외부에서 부딪혔을 때 한 번 호출해주면 번쩍임 시작
+    public void ShowFlash()
+    {
+        if (_flashImage != null)
         {
-            _gameClearPanel.SetActive(true);
+            _flashAlpha = 0.8f; // 하얗게(80%) 세팅만 해두면 Update가 알아서 줄여줌
         }
     }
 
