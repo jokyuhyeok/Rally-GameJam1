@@ -8,6 +8,9 @@ public class PlayerGasSkill : MonoBehaviour
     [SerializeField] private Tilemap _tilemap;
     [SerializeField] private GameObject _gasPrefab;
 
+    // 방귀를 뀔 때 팡! 터지는 임팩트 파티클 넣을 빈칸
+    [SerializeField] private GameObject _gasImpactParticle;
+
     private PlayerMove _playerMove;
 
     private void Start()
@@ -46,6 +49,14 @@ public class PlayerGasSkill : MonoBehaviour
 
             // 벽이 아니면 프리팹 소환
             Instantiate(_gasPrefab, backPosition, Quaternion.identity);
+
+            // 방귀가 나오는 위치에 타격감 200% 임팩트 파티클 터뜨리기!
+            if (_gasImpactParticle != null)
+            {
+                // backDirection(뒤쪽 방향)에 0.5f를 곱해서 절반만 뒤로 가게 만듭니다. (수치를 0.3f로 하면 더 바짝 붙습니다)
+                Vector3 impactPosition = transform.position + (backDirection * 0.2f);
+                Instantiate(_gasImpactParticle, impactPosition, Quaternion.identity);
+            }
         }
         // 연료 차감 요청 실패했을 때
         else
