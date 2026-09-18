@@ -1,0 +1,31 @@
+{
+    "asset": "6435f718514e7d2419db9671c57f0ac4",
+    "fileName": "01a0b2ae-ca6f-7437-a9a1-c63f67476405.png",
+    "prompt": "A clean 2D top-down background illustration for a retro arcade racing game main menu. Set in a post-apocalyptic desert maze with rusty metal barricades and cracked asphalt. A stylized buggy car drifting and leaving a vibrant yellow exhaust trail and tire marks, being chased by red enemy pursuit cars. Colorful flat art style with high contrast, vibrant lighting, no text, clean composition with open space in the center/top for UI elements.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

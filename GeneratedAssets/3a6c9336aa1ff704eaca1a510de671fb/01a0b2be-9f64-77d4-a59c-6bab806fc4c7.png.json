@@ -1,0 +1,31 @@
+{
+    "asset": "3a6c9336aa1ff704eaca1a510de671fb",
+    "fileName": "01a0b2be-9f64-77d4-a59c-6bab806fc4c7.png",
+    "prompt": "A retro 8-bit arcade game main menu background in authentic high-quality pixel art style. Strict top-down orthographic view of a simple maze with bright green blocky pixel walls and solid orange/warm pathways. A small blue pixelated retro sports car is being chased by red pixel pursuit cars, leaving a puffy yellow pixelated smoke trail behind it. 1980s classic arcade aesthetic (like Pac-Man, Rally-X), vibrant neon color palette, CRT arcade screen vibe, clean open space in the upper and center area for title text and UI buttons.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}
