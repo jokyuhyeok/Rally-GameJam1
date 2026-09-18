@@ -8,7 +8,7 @@ public class MainMenuController : MonoBehaviour
     {
         // Build Settings에 등록된 인덱스 1번 씬(게임 플레이 씬)을 불러옵니다.
         // 또는 씬 이름인 "Stage1"을 문자열로 넣어도 됩니다.
-        SceneManager.LoadScene(1); 
+        SceneManager.LoadScene(1);
     }
 
     // 게임 종료 버튼을 누를 때 실행될 메서드

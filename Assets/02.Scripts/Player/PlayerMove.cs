@@ -32,15 +32,15 @@ public class PlayerMove : MonoBehaviour
         // 게임 시작 타이머가 끝나지 않았다면 아무것도 안 함 (이동 정지)
         if (GameManager.Instance != null && !GameManager.Instance.IsGameStarted)
         {
-            return; 
+            return;
         }
-        
+
         // 게임 오버이거나 연료가 바닥났다면 정지
         if (GameManager.Instance != null && (GameManager.Instance.IsGameOver || GameManager.Instance.IsFuelEmpty))
         {
-            return; 
+            return;
         }
-    
+
         UserKeyInput();
         Move();
     }
@@ -78,7 +78,7 @@ public class PlayerMove : MonoBehaviour
             _nextDirection = inputDirection;
 
             _targetPosition = _targetPosition + _currentDirection;
-            
+
             // 유턴할 때 즉시 차체 회전 반영
             RotateCar(_currentDirection);
         }
@@ -109,7 +109,7 @@ public class PlayerMove : MonoBehaviour
             }
 
             _targetPosition = _targetPosition + _currentDirection;
-            
+
             // 새로운 타일로 꺾일 때 차체 회전 반영
             RotateCar(_currentDirection);
         }

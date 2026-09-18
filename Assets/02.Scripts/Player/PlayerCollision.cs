@@ -6,7 +6,7 @@ public class PlayerCollision : MonoBehaviour
     [SerializeField] private AudioClip _explosionSound; // 💡 인스펙터에서 폭발음 넣을 칸
     private AudioSource _audioSource;
     private Animator _animator;
-    
+
     private void Start()
     {
         // 게임 시작 시 Player에 붙어있는 Animator 컴포넌트 가져오기
@@ -17,12 +17,12 @@ public class PlayerCollision : MonoBehaviour
             _audioSource = gameObject.AddComponent<AudioSource>();
         }
     }
-    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // 이미 게임 오버 상태면 중복 충돌 방지
         if (GameManager.Instance != null && GameManager.Instance.IsGameOver) return;
-        
+
         // 적 Tag를 가진 오브젝트와 만나면 게임오버.
         if (collision.CompareTag("Enemy") || collision.CompareTag("Obstacle"))
         {
@@ -37,7 +37,7 @@ public class PlayerCollision : MonoBehaviour
             {
                 _animator.SetTrigger("Die");
             }
-            
+
             // 부딪힌 상대가 '적(Enemy)'일 때만 적도 함께 터뜨리기
             if (collision.CompareTag("Enemy"))
             {
@@ -46,9 +46,10 @@ public class PlayerCollision : MonoBehaviour
                 {
                     enemyAnimator.SetTrigger("Die");
                 }
+
                 Destroy(collision.gameObject, 0.5f);
             }
-            
+
             GameManager.Instance.GameOver();
         }
         // 깃발 태그를 가진 오브젝트를 만나면 점수 올라감.

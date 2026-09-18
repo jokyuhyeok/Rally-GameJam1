@@ -19,7 +19,7 @@ public class EnemyNavigator : MonoBehaviour
     private float _stunTimer = 0f;
 
     private Animator _animator;
-    
+
     // 길찾기용 4방향 배열 선언
     private readonly Vector3Int[] _directions = { Vector3Int.up, Vector3Int.down, Vector3Int.left, Vector3Int.right };
 
@@ -41,7 +41,7 @@ public class EnemyNavigator : MonoBehaviour
         {
             return;
         }
-        
+
         if (_isStunned)
         {
             _stunTimer -= Time.deltaTime;
@@ -52,6 +52,7 @@ public class EnemyNavigator : MonoBehaviour
                 {
                     _animator.SetBool("IsStunned", false);
                 }
+
                 Debug.Log("스턴 끝! 다시 쫓아간다.");
             }
         }
@@ -169,7 +170,7 @@ public class EnemyNavigator : MonoBehaviour
 
         _isStunned = true;
         _stunTimer = stunTime;
-        
+
         if (_animator != null)
         {
             _animator.SetBool("IsStunned", true);
@@ -177,7 +178,7 @@ public class EnemyNavigator : MonoBehaviour
 
         Debug.Log("나 기절!");
     }
-    
+
     // 적 회전 전용 함수
     private void RotateEnemy(Vector3 dir)
     {
