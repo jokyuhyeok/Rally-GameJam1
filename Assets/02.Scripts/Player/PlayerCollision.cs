@@ -3,7 +3,13 @@ using UnityEngine;
 // 플레이어의 깃발, 적과의 충돌을 관리하는 클래스
 public class PlayerCollision : MonoBehaviour
 {
-    [SerializeField] private AudioClip _explosionSound; // 💡 인스펙터에서 폭발음 넣을 칸
+    [SerializeField] private AudioClip _explosionSound; // 인스펙터에서 폭발음 넣을 칸
+
+    [Header("Effects")]
+    [SerializeField] private GameObject _flagParticlePrefab; // 파티클 넣을 칸
+
+    [SerializeField] private GameObject _floatingTextPrefab; // 둥실둥실 텍스트 프리팹 넣을 칸
+
     private AudioSource _audioSource;
     private Animator _animator;
 
@@ -57,7 +63,33 @@ public class PlayerCollision : MonoBehaviour
         {
             // 현재 연료량은 GameManager에서 가져와 토스
             float currentFuel = GameManager.Instance != null ? GameManager.Instance.CurrentFuel : 0f;
-            ScoreManager.Instance.CollectFlag(collision.tag, currentFuel);
+
+            // ScoreManager가 콤보와 보너스를 계산한 최종 점수를 받아옴
+            int gainedScore = ScoreManager.Instance.CollectFlag(collision.tag, currentFuel);
+
+            // 남은 전체 깃발 개수 감소 및 클리어 체크
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.DecreaseFlag();
+            }
+
+            // 깃발 위치에 파티클 폭죽 터뜨리기
+            if (_flagParticlePrefab != null)
+            {
+                Instantiate(_flagParticlePrefab, collision.transform.position, Quaternion.identity);
+            }
+
+            // 플로팅 텍스트 생성하고 실제 획득 점수 띄우기
+            if (_floatingTextPrefab != null)
+            {
+                GameObject textObj =
+                    Instantiate(_floatingTextPrefab, collision.transform.position, Quaternion.identity);
+                FloatingText fText = textObj.GetComponent<FloatingText>();
+                if (fText != null)
+                {
+                    fText.SetText("+" + gainedScore); // 계산된 점수 반영
+                }
+            }
 
             Destroy(collision.gameObject);
         }

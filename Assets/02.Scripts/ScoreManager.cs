@@ -66,7 +66,7 @@ public class ScoreManager : MonoBehaviour
     }
 
     // 깃발 획득 시 점수 계산 및 총점 갱신
-    public void CollectFlag(string flagType, float currentFuel)
+    public int CollectFlag(string flagType, float currentFuel)
     {
         _flagCount++;
         int gainedScore = CalculateBaseScore(); // 기본 깃발 획득시 획득 점수
@@ -80,6 +80,8 @@ public class ScoreManager : MonoBehaviour
         SaveHiScore(); // 점수가 오를 때마다 최고 점수 갱신 체크
 
         Debug.Log($"{flagType} 획득. (+{gainedScore}점) / 현재 총점 : {_score} / 하이스코어 : {_hiScore}");
+
+        return gainedScore;
     }
 
     private int CalculateBaseScore() => _flagCount * _scoreNormalFlag;

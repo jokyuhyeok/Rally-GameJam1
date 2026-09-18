@@ -14164,6 +14164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCollision
   _explosionSound: {fileID: 0}
+  _flagParticlePrefab: {fileID: 4021103657954561961, guid: 5c755f9bc5253ea418e919994537dcc7, type: 3}
+  _floatingTextPrefab: {fileID: 1947189776545782651, guid: a3741c14ad0f8584996669c183fb89b6, type: 3}
 --- !u!95 &1399792625
 Animator:
   serializedVersion: 7
